@@ -1,0 +1,210 @@
+body {
+	background-image: url("bg.png");
+	background-color:#353535;
+	margin:0;
+	font-family:century gothic;
+	font-size:19px;
+	}
+
+header {
+	width:100%;
+	height:134px;
+	background-size: 100% 134px;
+	box-shadow: 0 3px rgba(0,0,0,0.5);
+	background-image:url("header_bg.png");
+	text-align:center;
+	}
+	
+#menu {
+	position:fixed;
+	top:0px;
+	background-color:rgba(0,0,0,0.9);
+	width:100%;
+	height:100%;
+	color:white;
+	font-size:48px;
+	text-align:center;
+	z-index:2;
+	}
+	
+#menu_list {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	}
+	
+#menu_list li {
+	height:calc(100% / 9);
+	margin-top:calc(100% / 9);
+	margin-top:calc(100% / 9);
+	}
+	
+#close_menu {
+	position:absolute;
+	bottom:20px;
+	width:100%;
+	cursor:pointer;
+	}
+
+#header_right_side {
+	float:right;
+	text-align:right;
+	color:#484848;
+	margin-right:30px;
+	position:relative;
+	top:35px;
+	font-size:20px;
+	line-height:32px;
+	}
+	
+#logo {
+	position:absolute;
+	left:calc(50% - 47.5px);
+	height:110px;
+	margin-top:10px;
+	}
+	
+#menu_icn {
+	right:0px;
+	float:left;
+	margin:45px;
+	cursor:pointer;
+	}
+	
+h1 {
+	font-weight:normal;
+	color:#f6c943;
+	font-size:42px;
+	margin-top:28px;
+	margin-bottom:28px;
+	text-align:center;
+	}
+
+	
+#video_area {
+	text-align:center;
+	margin-top:20px;
+}
+
+#home_pg_vid {
+	z-index:1;
+	}
+	
+#hk_ldrshp_rks {
+	text-align:center;
+	color:#898989;
+	}
+	
+.person_links {
+	list-style:none;
+	padding:0;
+	}
+	
+	
+.rule {
+	height:2px;
+	width:calc(100% - 60px);
+	background-color:#616161;
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:20px;
+	}
+	
+p.single_content {
+	color:#898989;
+	padding:30px;
+	margin:0;
+	}
+	
+p.person_bio {
+	color:#898989;
+	}
+	
+h2 {
+	font-weight:normal;
+	color:white;
+	font-size:24px;
+	margin-bottom:28px;
+	text-align:center;
+	}
+
+.person {
+	text-align:center;
+	width:100%;
+	margin-bottom:50px;
+	}
+	
+footer {
+	background-color:rgba(0,0,0,0.25);
+	color:white;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:50px;
+	text-align:center;
+	}
+	
+a {
+	color:white;
+	text-decoration:none;}
+	
+#inner_header, #inner_body, #inner_footer {
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#hiskingdome_overview_img {
+	width:100%;
+}
+
+.cnct_srv_grw_imgs_container {
+	width:calc(100% / 3);
+	float:left;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+h3 {
+	color:white;
+	font-weight:normal;
+	font-size:28px;
+}
+
+.home_icn_descrip {
+	color:white;
+	font-style: italic;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    #menu {
+		height:134px;
+		font-size:40px;
+    }
+	#menu_list {
+		list-style-type: none;
+		padding:0;
+		margin:0;
+		text-align:center;
+		width:900px;
+		position:absolute;
+		left:calc(50% - 450px);
+	}
+		
+	#menu_list li {
+		float:left;
+		margin:0;
+		text-align:center;
+		width:300px;
+		position:relative;
+		top:37.5px;
+	}
+	
+	#close_menu {
+		width:auto;
+		position:absolute;
+		left:calc(50% + 517.5px);
+		top:41px;
+	}
+}
