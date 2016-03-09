@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         $("#accountName").html(data.fn + "'s Account<span class='caret'></span>");
  
@@ -18,11 +18,9 @@ function addRequest(){
     $("#modalConfirm").hide();
     $("#modalRequestClose").hide();
     $("#modalBlock").hide();
-    $.getJSON("/rest/member/addLoggedInUserRequestToGroup?name="+groupName,function(data){;
-        $("#modalRequestClose").show();
-        loadGroupTable();
-        $("#infoAboutAddingText").html("Group Request Added.");
-    })
+    $("#modalRequestClose").show();
+    loadGroupTable();
+    $("#infoAboutAddingText").html("Group Request Added.");
 }
 
 function confirmBlock(){
@@ -40,11 +38,10 @@ function addBlock(){
     $("#modalBlockDeny").hide();
     $("#modalBlockConfirm").hide();
     $("#modalGroupRequestText").html("Hiding Group... Please wait a moment.");
-    $.getJSON("/rest/member/addLoggedInUserBlockToGroup?name="+groupName,function(data){;
-        loadGroupTable();
-        $("#modalGroupRequestText").html("Group Hidden.");
-         $("#modalRequestClose").show();
-    })
+    loadGroupTable();
+    $("#modalGroupRequestText").html("Group Hidden.");
+    $("#modalRequestClose").show();
+
 }
 
 function fixWeekdayTable(groupMeetingPreference){
@@ -57,7 +54,7 @@ function fixWeekday(groupMeetingPreference){
 
 function loadGroupTable(){
     $("#groupRank tbody").html(""); 
-    $.getJSON('/rest/member/getLoggedInGroupList', function(data){
+    $.getJSON('json/rest/member/getLoggedInGroupList', function(data){
         $(data.user).each(function(key,val){
             name = val.name;
             newRow = '<tr><td colspan="4"><a id="clickedGroup'+key+'">'+ name 
