@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
 
         data = userData.statements;
         loadBanner(data);
@@ -25,10 +25,8 @@ function addRequest(){
     $("#modalConfirm").hide();
     $("#modalRequestClose").hide();
     $("#modalBlock").hide();
-    $.getJSON("/rest/member/addLoggedInUserRequestToGroup?groupId="+groupId,function(data){;
-        $("#modalRequestClose").show();
-        $("#infoAboutAddingText").html(data.status);
-    })
+     $("#modalRequestClose").show();
+    $("#infoAboutAddingText").html("Group Added");
 }
 
 function confirmBlock(){
@@ -46,11 +44,9 @@ function addBlock(){
     $("#modalBlockDeny").hide();
     $("#modalBlockConfirm").hide();
     $("#modalGroupRequestText").html("Hiding Group... Please wait a moment.");
-    $.getJSON("/rest/member/addLoggedInUserBlockToGroup?name="+groupName,function(data){;
-        loadGroupTable();
-        $("#modalGroupRequestText").html("Group Hidden.");
-         $("#modalRequestClose").show();
-    })
+    loadGroupTable();
+    $("#modalGroupRequestText").html("Group Hidden.");
+    $("#modalRequestClose").show();
 }
 
 function fixWeekdayTable(groupMeetingPreference){
@@ -62,8 +58,8 @@ function fixWeekday(groupMeetingPreference){
 }
 
 function loadGroupTable(){
-    $.get("/rest/member/listBulletinHeaders",function(data){
-    //$.getJSON("json/rest/admin/listBulletinHeaders",function(data){
+    //$.get("/rest/member/listBulletinHeaders",function(data){
+    $.getJSON("json/rest/admin/listBulletinHeaders",function(data){
         count = 0;
         var groupHeaders = new Array();
         $('#groupList').html("");
@@ -115,8 +111,8 @@ function loadGroup(groupId){
     $('#groupForm').show();
     $('#editBulletinForm').show();
     $('#newGroupInBulletin').hide();
-    $.post('/rest/admin/getGroupInfo',{groupId:groupId},function(userData){
-    //$.getJSON('json/rest/admin/getGroupInfo',function(userData){
+    //$.post('/rest/admin/getGroupInfo',{groupId:groupId},function(userData){
+    $.getJSON('json/rest/admin/getGroupInfo',function(userData){
       data = userData.statements;
       if(data.groupHasHeader){
         $("#groupBulletinHeader").val(data.groupHasHeader);
