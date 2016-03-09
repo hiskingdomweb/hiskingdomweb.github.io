@@ -1,0 +1,83 @@
+
+{
+    "statements":{
+        "groupApproval":"true",
+        "groupHobbyCollectors":"false",
+        "groupHobbyMotorsports":"false",
+        "groupHobbyEntrepreneur":"false",
+        "groupHobbySocial":"false",
+        "groupHobbyAdventureSeekers":"false",
+        "groupHobbyScienceAndNature":"false",
+        "groupHobbyHistoryBuffs":"false",
+        "groupHobbyCraftersArtists":"false",
+        "groupHobbySharpenTheMind":"false",
+        "groupHobbyOutdoors":"false",
+        "groupHobbySportsFitness":"false",
+        "groupHobbyKidsFamily":"false",
+        "groupHobbyStressRelief":"false",
+        "groupHobbyMusicLover":"false",
+        "groupHasPrimaryChurchOrg":{
+            "orgName":"Test Church: Philadelphia, PA",
+            "id":"14534920750481547"
+        },
+        "groupChildcare":"No",
+        "groupAge":"Mixed",
+        "groupGender":"Mixed",
+        "groupUsesInterests":"false",
+        "distance":2382.8086421471303,
+        "groupLocationLng":"-119.41793239999998",
+        "groupLocationLat":"36.778261",
+        "groupLocationAddress":"California, USA",
+        "groupLocation":"California",
+        "groupRepeatsSummaryText":"Calendar Summary: Weekly on Tuesday, ongoing",
+        "groupRepeatsDaysOfWeek":"T",
+        "groupRepeatsFrequency":"Weekly",
+        "groupRepeats":"true",
+        "groupExpired":"false",
+        "groupEndTime":"18:00",
+        "groupStartTime":"17:00",
+        "groupNextStartDate":"02/23/2016",
+        "groupStartDate":"02/23/2016",
+        "groupGroupType":"Fellowship",
+        "groupPurpose":"To test",
+        "groupCategory":"group",
+        "groupName":"Test group 1",
+        "updatedBy":"1454544060783",
+        "revokedMembershipOf":"14549524648469090",
+        "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14559331101637960",
+        "groupOpen":"true",
+        "nextInMillis":1456276031058,
+        "daysOfWeek":"3",
+        "score":"0.09115297943338094",
+        "prediction":{
+            "score":"0.09115297943338094",
+            "nextDate":"96.0",
+            "groupType":"true",
+            "distance":"2382.8086421471303"
+        },
+        "groupHasChurchOrg":[
+        ],
+        "id":"14555948629452205",
+        "requestedByPerson":[
+            {
+                "name":"Stephen Suffian Test",
+                "email":"stephensuffian@gmail.com",
+                "id":"1454544060786"
+            },
+            {
+                "name":"Stephen New Name",
+                "email":"stephen.suffian+test@gmail.com",
+                "id":"14549524648469090"
+            }
+        ],
+        "hasAsMember":[
+        ],
+        "ledBy":[
+            {
+                "name":"Stephen Suffians",
+                "email":"stephen.suffian@gmail.com",
+                "id":"1454544060783"
+            }
+        ]
+    }
+}
