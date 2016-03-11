@@ -101,8 +101,8 @@ $('#dayOfWeekSelectAll').change(function(){
 })
 
 function loadUsername(){
-    usernameAjax = $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
-    //usernameAjax = $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
+    //usernameAjax = $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    usernameAjax = $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         loadBanner(data);
         number = 0;
@@ -264,11 +264,9 @@ function addRequest(){
     $("#modalConfirm").hide();
     $("#modalRequestClose").hide();
     $("#modalBlock").hide();
-    $.getJSON("/rest/member/addLoggedInUserRequestToGroup?groupId="+groupId,function(data){;
-        $("#modalRequestClose").show();
-        loadTableVariables();
-        $("#infoAboutAddingText").html("Request Added.");
-    })
+    $("#modalRequestClose").show();
+    loadTableVariables();
+    $("#infoAboutAddingText").html("Request Added.");    
 }
 
 function confirmBlock(){
@@ -287,11 +285,10 @@ function addBlock(){
     $("#modalBlockConfirm").hide();
     groupId = $("#groupId").val();
     $("#modalGroupRequestText").html("Hiding Group... Please wait a moment.");
-    $.getJSON("/rest/member/addLoggedInUserBlockToGroup",{groupId:groupId},function(data){;
-        loadTableVariables();
-        $("#modalGroupRequestText").html("Group Hidden.");
-         $("#modalRequestClose").show();
-    })
+    loadTableVariables();
+    $("#modalGroupRequestText").html("Group Hidden.");
+    $("#modalRequestClose").show();
+    
 }
 
 function filterJsonArrayEvent(objArray){
@@ -491,10 +488,11 @@ function createGroupTable(json){
 }
 
 function saveProfileValue(name,value){
+  /*
   $.post("/rest/member/editLoggedInUserProfile",{key:name,value:value},
         function(data){
           refreshExpiredPage(data);
-    })
+    })*/
 }
 
 function loadTableVariables(){
@@ -503,7 +501,7 @@ function loadTableVariables(){
     tableDate = "";
     repeatFrequency = "";
     filteredGroupJsonData = []//This is the only way to clone json objects
-    groupListAjax = $.getJSON('/rest/member/getLoggedInList', function(data){
+    groupListAjax = $.getJSON('json/rest/member/getLoggedInList', function(data){
     //groupListAjax = $.getJSON('json/rest/member/getLoggedInList', function(data){
       allGroupJsonData = data;
     })
