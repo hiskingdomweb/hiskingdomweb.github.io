@@ -136,7 +136,12 @@ function loadGroup(groupId){
       $('#editBulletinForm').show();
       $('#groupName').html(data.groupName);
       $('#groupId').val(data.id);
-      $('#ledBy').html(data.ledBy.name+'&#60;'+data.ledBy.email+'&#62;');
+      leadersNameEmail = [];
+      $.each(data.ledBy,function(key,val){
+        leadersNameEmail.push(val.name+"&#60;"+val.email+"&#62;");
+      })
+      $('#ledBy').html(leadersNameEmail.toString());
+      
       if(data.groupRepeats && data.groupRepeats == "true"){
             $('#startDatetime').html(data.groupNextStartDate+" "+convertTime(data.groupStartTime) + " to " + convertTime(data.groupEndTime));
         }
