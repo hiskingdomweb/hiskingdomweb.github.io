@@ -59,7 +59,7 @@ function fixWeekday(groupMeetingPreference){
 
 function loadGroupTable(){
     //$.get("/rest/member/listBulletinHeaders",function(data){
-    $.getJSON("json/rest/admin/listBulletinHeaders",function(data){
+    $.getJSON("json/rest/memer/listBulletinHeaders",function(data){
         count = 0;
         var groupHeaders = new Array();
         $('#groupList').html("");
