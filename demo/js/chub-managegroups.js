@@ -309,7 +309,7 @@ function loadGroup(clicked_id){
 }*/
 
 function loadChurchOrgs(primaryChurchOrg,churchOrgs){
-    $.getJSON('/rest/member/listChurchOrgs', function(data){
+    $.getJSON('json/rest/member/listChurchOrgs', function(data){
       orgHTML = '';
       $.each(data.statements, function (key,val){
         if(val.id != primaryChurchOrg.id){
@@ -357,8 +357,8 @@ function loadGroup(clicked_id){
     districtArray = [];
     stateCountyDistricts = [];
 
-    $.get("/rest/member/getLoggedInGroupInfo?group="+clicked_id,function(userData){
-    //$.getJSON('json/rest/member/getLoggedInGroupInfo',function(userData){
+    //$.get("/rest/member/getLoggedInGroupInfo?group="+clicked_id,function(userData){
+    $.getJSON('json/rest/member/getLoggedInGroupInfo',function(userData){
         data = userData.statements;
         emailList = '';
         $("#modalAttendanceList").html("");
@@ -636,15 +636,10 @@ function approveUsersForGroup(){
         }
     })
     updateMemberText();
+    $("#generalModalText").html("Member(s) Succesfully Approved.");
+    $('#userRemove').show();
+    $("#generalModalClose").show();
     
-    $.post("/rest/member/approveUsersForGroup",{
-        members:members.toString(),
-        groupId:groupId
-        },function(a,b){
-            $("#generalModalText").html("Member(s) Succesfully Approved.");
-            $('#userRemove').show();
-            $("#generalModalClose").show();
-        });
 }
 
 function addLeadersToGroup(){
@@ -658,14 +653,9 @@ function addLeadersToGroup(){
     groupId = $("#groupId").val();
     updateLeaderText();
     leaders = $('#currentLeaders').val();
+    $('#closePostConfirmAddLeader').show();
+    $("#selectLeadersConfirmBody").html("Leadership Succesfully Updated.");
     
-    $.post("/rest/member/addLeadersToGroup",{
-        leaders:leaders,
-        groupId:groupId
-        },function(a,b){
-            $('#closePostConfirmAddLeader').show();
-            $("#selectLeadersConfirmBody").html("Leadership Succesfully Updated.");
-        });
 }
 
 function addUsersToGroup(){
@@ -679,14 +669,9 @@ function addUsersToGroup(){
     groupId = $("#groupId").val();
     updateMemberText();
     members = $('#currentMembers').val();
-    
-    $.post("/rest/member/addUsersToGroup",{
-        members:members,
-        groupId:groupId
-        },function(a,b){
-            $('#closePostConfirmAddMember').show();
-            $("#selectMembersConfirmBody").html("Membership Succesfully Updated.");
-        });
+    $('#closePostConfirmAddMember').show();
+    $("#selectMembersConfirmBody").html("Membership Succesfully Updated.");
+   
 }
 
 function updateGroup(){
@@ -795,51 +780,8 @@ function updateGroup(){
         keyboard: false,
         backdrop: 'static'
     })
-
-    $.post("/rest/member/updateGroup",
-        { groupId:groupId,
-          name:name,
-          category:category,
-          startDate:startDate,
-          startTime:startTime,
-          //endDate:endDate,
-          endTime:endTime,
-          repeats:repeats,
-          repeatsFrequency:repeatsFrequency,
-          repeatsDaysOfWeek:repeatsDaysOfWeek,
-          repeatsMonthType:repeatsMonthType,
-          repeatsEndDate:repeatsEndDate,
-          repeatsSummaryText:repeatsSummaryText,
-          purpose:purpose,
-          eventType:eventType,
-          locationName:locationName,
-          locationAddress:locationAddress,
-          locationLat:locationLat,
-          locationLng:locationLng,
-          primaryChurchOrg:primaryChurchOrg,
-          otherChurchOrgs:otherChurchOrgs,
-          gender:gender,
-          age:age,
-          childcare:childcare,
-          hobbyMusicLover:hobbyMusicLover,
-          hobbyStressRelief:hobbyStressRelief,
-          hobbyKidsFamilies:hobbyKidsFamilies,
-          hobbySportsFitness:hobbySportsFitness,
-          hobbyOutdoors:hobbyOutdoors,
-          hobbySharpenTheMind:hobbySharpenTheMind,
-          hobbyCraftersArtists:hobbyCraftersArtists,
-          hobbyHistoryBuffs:hobbyHistoryBuffs,
-          hobbyScienceNature:hobbyScienceNature,
-          hobbyAdventureSeekers:hobbyAdventureSeekers,
-          hobbySocial:hobbySocial,
-          hobbyEntrepreneur:hobbyEntrepreneur,
-          hobbyMotorsports:hobbyMotorsports,
-          hobbyCollectors:hobbyCollectors,
-          usesInterests:usesInterests,
-        },function(data){
-        $('#generalModalText').html('Changes saved.');
+        $('#generalModalText').html('This is only a demo, so changes won\'t be saved.');
         $('#generalModalClose').show();
-    })
 }
 
 function changeGroupOpen(value){
@@ -854,18 +796,7 @@ function changeGroupOpen(value){
             keyboard: false,
             backdrop: 'static'
         })
-        $.post("/rest/member/editGroupOpen",{
-            value:value,
-            groupId:$("#groupId").val()
-            },function(key,val){
-            if(value == false){
-                $("#generalModalText").html("Group is Now Closed.");
-            }
-            else if(value == true){
-                $("#generalModalText").html("Group is Now Opened.");
-            }
-            $("#generalModalClose").show();
-        });
+        
 }
 
 function addTask(){
