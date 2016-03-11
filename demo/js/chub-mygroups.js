@@ -17,8 +17,8 @@ $('#group-search-btn').click( function() {
 
 
 function loadGroupTable(){
-    $.getJSON("/rest/member/listLoggedInGroupsMember",function(data){
-    //$.getJSON("json/rest/admin/listLoggedInGroups",function(data){
+    //$.getJSON("/rest/member/listLoggedInGroupsMember",function(data){
+    $.getJSON("json/rest/member/listLoggedInGroups",function(data){
       
         grouptable = '<tbody class="searchable-group">';
         $("#groupForm")[0].reset();
@@ -39,7 +39,7 @@ function loadGroup(clicked_id){
     countyArray = [];
     districtArray = [];
     stateCountyDistricts = [];
-    $.post("/rest/member/getLoggedInGroupInfo",
+    $.post("json/rest/member/getLoggedInGroupInfo",
         {group:clicked_id},function(userData){
     //$.getJSON('json/rest/admin/getGroupInfo',function(userData){
         data = userData.statements;
@@ -141,10 +141,7 @@ $("#modalConfirm").click(function(){
     $('#modalClose').hide();
     $('#modalConfirm').hide();
     $("#checkSuccess").html("Deleting group, please wait a moment...");
-    $.post("/rest/admin/deleteGroup",
-        {name:$("#clickedGroup").val()},function(userData){
-        loadGroupTable();
-        $("#checkSuccess").html("Group succesfully deleted.");
-        $('#modalClose').show();
-    })
+    loadGroupTable();
+    $("#checkSuccess").html("Group succesfully deleted.");
+    $('#modalClose').show();
 })
