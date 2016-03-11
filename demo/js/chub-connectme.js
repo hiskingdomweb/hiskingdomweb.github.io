@@ -481,7 +481,7 @@ function loadChurchOrgs(primaryChurchOrg,churchOrgs){
             }
             else{
                 saveProfileValue($('#secondaryChurchOrgs').attr('id'),""); 
-                $("#churchOrgLabel").css("color","red");
+                //$("#churchOrgLabel").css("color","red");
             }
           },
         });
