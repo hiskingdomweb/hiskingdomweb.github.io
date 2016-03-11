@@ -73,6 +73,7 @@ function saveAddress(){
     lat = $("#searchableLocationLat").val();
     lng = $("#searchableLocationLng").val();
     percent = changeProgressBar(false);
+    /*
     $.post("/rest/member/editLoggedInUserLocation",
         { name:name,
           address:address,
@@ -80,7 +81,7 @@ function saveAddress(){
           lng:lng,
           percent:percent},
         function(data){
-    })
+    })*/
   $("#searchableLocationLabel").css("color","white"); 
 }
 
@@ -91,9 +92,11 @@ $("#submit").click(function(){
 })
 
 function saveProfileValue(name,value){
+  /*
   $.post("/rest/member/editLoggedInUserProfile",{page:"connect",key:name,value:value},
         function(data){
     })
+  */
 }
 
 function addChildInfo(numKids){
@@ -169,7 +172,7 @@ function setKidGenderAgeGroup(kidGenderAgeGroups){
 
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         loadBanner(data);
         $("#occupation").val(data.occupation);
@@ -440,7 +443,7 @@ function setProgressBarValue(number,predictionsUpdated){
 }
 
 function loadChurchOrgs(primaryChurchOrg,churchOrgs){
-      $.getJSON('/rest/member/listChurchOrgs', function(data){
+      $.getJSON('json/rest/member/listChurchOrgs', function(data){
         orgHTML = '';
         $.each(data.statements, function (key,val){
           if(val.id != primaryChurchOrg.id){
@@ -486,7 +489,7 @@ function loadChurchOrgs(primaryChurchOrg,churchOrgs){
 }
 
 function loadSecondaryChurchOrgs(primaryChurchOrg){
-      $.getJSON('/rest/member/listChurchOrgs', function(data){
+      $.getJSON('json/rest/member/listChurchOrgs', function(data){
         orgHTML = '';
         $.each(data.statements, function (key,val){
           if(val.orgName != primaryChurchOrg){
