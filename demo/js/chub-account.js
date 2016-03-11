@@ -12,12 +12,8 @@ $("#editUserSubmit").click(function(){
     })
     $('#loadingText').html("Updating account... Please wait a moment");
     $('#modalClose').hide();
-    $.post("/rest/member/editLoggedInUserAccount",
-        {name:name,email:email,phone:tel},
-        function(data){
-            $('#loadingText').html(data.status);
-            $('#modalClose').show();
-    })
+    $('#loadingText').html("This is only a demo.");
+    $('#modalClose').show();
 })
 
 $("#newPassword").click(function(){
@@ -34,7 +30,7 @@ $("#newPassword").click(function(){
 
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         loadBanner(data);
         $("#accountName").html(data.fn + "'s Account<span class='caret'></span>");
@@ -90,10 +86,7 @@ $('#passwordUpdateSubmit').click(function(){
         $('#passwordText').html("Password being updated... Please wait a moment.");
         var shaObj = new jsSHA(password, "TEXT");
         var hash = shaObj.getHash("SHA-512", "HEX");
-        $.post("/rest/member/editLoggedInUserPassword",{password:hash},
-            function(data){
-            $('#passwordText').html(data.status);
-            $('#passwordClose').show();
-        });
+        $('#passwordText').html("This is only a demo.");
+        $('#passwordClose').show();
     }
 })
