@@ -40,14 +40,15 @@ $("#submit").click(function(){
 })
 
 function saveProfileValue(name,value){
+  /*
   $.post("/rest/member/editLoggedInUserProfile",{page:"grow",key:name,value:value},
         function(data){
-    })
+    })*/
 }
 
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         loadBanner(data);
         if(data.desiredDynamicSpiritual){
