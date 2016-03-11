@@ -126,7 +126,7 @@ function removeElement(arr, item) {
 
 function loadBanner(data){
   if(data == null){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         updateBanner(data);
     })
