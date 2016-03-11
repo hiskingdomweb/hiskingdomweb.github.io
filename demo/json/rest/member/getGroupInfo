@@ -47,7 +47,7 @@
         "groupName":"Car Show:  20th Annual A la Carte & Art",
         "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14576402819763353",
         "groupOpen":"true",
-        "nextInMillis":1457683168909,
+        "nextInMillis":1457683108001,
         "daysOfWeek":"1,2,3,4,5,6,7",
         "score":"0.11328108345654038",
         "prediction":{
