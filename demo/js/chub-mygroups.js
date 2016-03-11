@@ -18,7 +18,7 @@ $('#group-search-btn').click( function() {
 
 function loadGroupTable(){
     //$.getJSON("/rest/member/listLoggedInGroupsMember",function(data){
-    $.getJSON("json/rest/member/listLoggedInGroups",function(data){
+    $.getJSON("json/rest/member/listLoggedInGroupsMember",function(data){
       
         grouptable = '<tbody class="searchable-group">';
         $("#groupForm")[0].reset();
