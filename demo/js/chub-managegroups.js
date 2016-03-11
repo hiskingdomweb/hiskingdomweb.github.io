@@ -124,7 +124,7 @@ function loadGroupTable(){
 }*/
 
 function loadGroupLeadTable(){
-    $.getJSON("/rest/member/listLoggedInGroupsLead",function(data){
+    $.getJSON("json/rest/member/listLoggedInGroupsLead",function(data){
     //$.getJSON("json/rest/member/listLoggedInGroupsLead",function(data){
         grouptable = '<tbody class="searchable-group">';
         eventtable = '<tbody class="searchable-group">';
