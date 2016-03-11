@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         $("#accountName").html(data.fn + "'s Account<span class='caret'></span>");
         number = 0;
@@ -25,11 +25,8 @@ $("#sendIdea").click(function(){
         backdrop: 'static'
     })
     $('#myModal').modal('show');
-     $.getJSON("/rest/member/sendIdeaMail?message="+$("#idea").val(),
-        function(data){
-          $("#myModalLabel").html(data.status);
-          $("#modalClose").show();
-          $("#idea").val('');
-    })
+    $("#myModalLabel").html("This demo doesn't send ideas, please email hiskingdom@hiskingdom.net instead.");
+    $("#modalClose").show();
+    $("#idea").val('');
 })
 
