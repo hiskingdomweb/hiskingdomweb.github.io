@@ -1,0 +1,87 @@
+
+{
+    "statements":{
+        "groupNextStartDate":"03/14/2016",
+        "groupExpired":"false",
+        "groupApproval":"true",
+        "groupHobbyCollectors":"false",
+        "groupHobbyMotorsports":"false",
+        "groupHobbyEntrepreneur":"false",
+        "groupHobbySocial":"false",
+        "groupHobbyAdventureSeekers":"false",
+        "groupHobbyScienceAndNature":"false",
+        "groupHobbyHistoryBuffs":"false",
+        "groupHobbyCraftersArtists":"false",
+        "groupHobbySharpenTheMind":"false",
+        "groupHobbyOutdoors":"false",
+        "groupHobbySportsFitness":"false",
+        "groupHobbyKidsFamily":"false",
+        "groupHobbyStressRelief":"false",
+        "groupHobbyMusicLover":"false",
+        "groupHasPrimaryChurchOrg":{
+            "orgName":"Test Church: Philadelphia, PA",
+            "id":"14534920750481547"
+        },
+        "groupChildcare":"No",
+        "groupAge":"Mixed",
+        "groupGender":"Mixed",
+        "groupUsesInterests":"false",
+        "distance":2516.157875088674,
+        "groupLocationLng":"-122.41874000000001",
+        "groupLocationLat":"37.802139",
+        "groupLocationAddress":"Lombard St, San Francisco, CA 94133, United States",
+        "groupLocation":"Lombard Street",
+        "groupRepeatsSummaryText":"Calendar Summary: Weekly on Monday, ongoing",
+        "groupRepeatsDaysOfWeek":"M",
+        "groupRepeatsFrequency":"Weekly",
+        "groupRepeats":"true",
+        "groupEndTime":"01:30",
+        "groupStartTime":"00:30",
+        "groupStartDate":"02/29/2016",
+        "groupGroupType":"Fellowship",
+        "groupPurpose":"Has a purpose",
+        "groupCategory":"group",
+        "groupName":"Send Email Test",
+        "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14569775873861048",
+        "groupOpen":"true",
+        "nextInMillis":1457938650208,
+        "daysOfWeek":"2",
+        "score":"0.09059113951487242",
+        "prediction":{
+            "score":"0.09059113951487242",
+            "nextDate":"144.0",
+            "groupType":"true",
+            "distance":"2516.157875088674"
+        },
+        "groupHasChurchOrg":[
+        ],
+        "id":"14563340050931090",
+        "requestedByPerson":[
+        ],
+        "hasAsMember":[
+            {
+                "name":"Stephen",
+                "gender":"ERROR",
+                "age":"ERROR",
+                "email":"stephen.suffian+test@gmail.com",
+                "id":"14549524648469090"
+            },
+            {
+                "name":"Stephen",
+                "gender":"Male",
+                "age":"45-54",
+                "email":"stephen.suffian@gmail.com",
+                "id":"1454544060783"
+            }
+        ],
+        "ledBy":[
+            {
+                "name":"Stephen",
+                "email":"stephen.suffian+test@gmail.com",
+                "gender":"ERROR",
+                "age":"ERROR",
+                "id":"14549524648469090"
+            }
+        ]
+    }
+}
