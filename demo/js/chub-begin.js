@@ -22,7 +22,7 @@ $("#submit").click(function(){
     if($('#privatePrayer').prop('checked')){
       otherText+="I'd like to keep my prayer requests private."
     }
-
+    /*
     $.post("/rest/member/submitBeginProfile",{
       whatCanWeDo:whatCanWeDoHTML,
       howCanWeHelp:$('#churchHelp').val(),
@@ -31,11 +31,12 @@ $("#submit").click(function(){
         function(data){
           window.location.href = "/member/index.html";
     })
+    */
   
 })
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         if(data.beginPercentComplete != "100"){
          $('#topSiteName').html("Begin Here");
