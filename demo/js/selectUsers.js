@@ -8,7 +8,7 @@ $('#selectLeaders').click(function(){
 })
 
 function loadUserTables(gender,age,members,leaders){
-  $.getJSON("/rest/member/listUsersGroupLeader",function(data){  
+  $.getJSON("json/rest/member/listUsersGroupLeader",function(data){  
     loadLeadersTable(data);
     loadMembersTable(data);
     loadMembersLeadersFromGroup(members,leaders);
