@@ -1,7 +1,6 @@
 
 {
     "statements":{
-        "groupNextStartDate":"03/14/2016",
         "groupExpired":"false",
         "groupApproval":"true",
         "groupHobbyCollectors":"false",
@@ -19,68 +18,76 @@
         "groupHobbyStressRelief":"false",
         "groupHobbyMusicLover":"false",
         "groupHasPrimaryChurchOrg":{
-            "orgName":"Test Church: Philadelphia, PA",
-            "id":"14534920750481547"
+            "orgName":"Demo",
+            "id":"14575351141414317"
         },
         "groupChildcare":"No",
         "groupAge":"Mixed",
         "groupGender":"Mixed",
         "groupUsesInterests":"false",
-        "distance":2516.157875088674,
-        "groupLocationLng":"-122.41874000000001",
-        "groupLocationLat":"37.802139",
-        "groupLocationAddress":"Lombard St, San Francisco, CA 94133, United States",
-        "groupLocation":"Lombard Street",
-        "groupRepeatsSummaryText":"Calendar Summary: Weekly on Monday, ongoing",
-        "groupRepeatsDaysOfWeek":"M",
-        "groupRepeatsFrequency":"Weekly",
-        "groupRepeats":"true",
-        "groupEndTime":"01:30",
-        "groupStartTime":"00:30",
-        "groupStartDate":"02/29/2016",
+        "distance":2398.8531235134,
+        "groupLocationLng":"-119.73853309999998",
+        "groupLocationLat":"36.8097143",
+        "groupLocationAddress":"2650 E Shaw Ave, Fresno, CA 93710, United States",
+        "groupLocation":"Save Mart Center",
+        "groupRepeatsSummaryText":"Calendar Summary: Weekly on Friday, ongoing",
+        "groupRepeats":"false",
+        "groupEndTime":"22:00",
+        "groupStartTime":"20:00",
+        "groupStartDate":"04/15/2016",
         "groupGroupType":"Fellowship",
-        "groupPurpose":"Has a purpose",
-        "groupCategory":"group",
-        "groupName":"Send Email Test",
-        "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14569775873861048",
+        "groupPurpose":"Join a group of us to see TobyMac.\n\nA brand new Hits Deep Tour headlined by TobyMac and featuring Britt Nicole, Building 429, Colton Dixon, Capital Kings, Finding Favour and Hollyn ",
+        "groupCategory":"event",
+        "groupName":"TobyMac Concert Group Event",
+        "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14576411653176043",
+        "groupHasHeader":"14576404879596043",
+        "groupBulletinName":"TobyMac Concert Group Event 04/15/2016",
+        "groupBulletinDescription":"Join a group of us to see TobyMac.\n\nA brand new Hits Deep Tour headlined by TobyMac and featuring Britt Nicole, Building 429, Colton Dixon, Capital Kings, Finding Favour and Hollyn ",
         "groupOpen":"true",
-        "nextInMillis":1457938650208,
-        "daysOfWeek":"2",
-        "score":"0.09059113951487242",
+        "nextInMillis":-1,
+        "daysOfWeek":"6",
+        "score":"0.11385420274648855",
         "prediction":{
-            "score":"0.09059113951487242",
-            "nextDate":"144.0",
+            "score":"0.11385420274648855",
+            "nextDate":"-1.0",
             "groupType":"true",
-            "distance":"2516.157875088674"
+            "distance":"2398.8531235134"
         },
         "groupHasChurchOrg":[
         ],
-        "id":"14563340050931090",
+        "id":"14576398736677658",
         "requestedByPerson":[
         ],
         "hasAsMember":[
-            {
-                "name":"Stephen",
-                "gender":"ERROR",
-                "age":"ERROR",
-                "email":"stephen.suffian+test@gmail.com",
-                "id":"14549524648469090"
-            },
             {
                 "name":"Stephen",
                 "gender":"Male",
                 "age":"45-54",
                 "email":"stephen.suffian@gmail.com",
                 "id":"1454544060783"
+            },
+            {
+                "name":"Mike D Emo",
+                "gender":"Male",
+                "age":"35-44",
+                "email":"needsgap@gmail.com",
+                "id":"14575243330971552"
             }
         ],
         "ledBy":[
             {
                 "name":"Stephen",
-                "email":"stephen.suffian+test@gmail.com",
-                "gender":"ERROR",
-                "age":"ERROR",
-                "id":"14549524648469090"
+                "email":"stephen.suffian@gmail.com",
+                "gender":"Male",
+                "age":"45-54",
+                "id":"1454544060783"
+            },
+            {
+                "name":"Mike D Emo",
+                "email":"needsgap@gmail.com",
+                "gender":"Male",
+                "age":"35-44",
+                "id":"14575243330971552"
             }
         ]
     }
