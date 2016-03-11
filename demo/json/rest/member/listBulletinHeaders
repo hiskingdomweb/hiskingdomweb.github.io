@@ -1,0 +1,86 @@
+
+{
+    "statements":{
+        "headers":[
+            {
+                "name":"Groups",
+                "groupOrder":"14576393684571578,14576393684571578,14575361543409442,14575361543409442,14576403586629572,14576403586629572,14576391408278110,14576391408278110",
+                "groups":[
+                    {
+                        "groupName":"Dad's Play Group",
+                        "id":"14576393684571578",
+                        "category":"group",
+                        "bulletinName":"Dad's Play Group 03/15/2016",
+                        "bulletinHeader":"14576405988147004",
+                        "bulletinDescription":"Stay at home Dad's in the Mountain View Area can get together with their kids during the week and hang out and let the kids learn social skills."
+                    },
+                    {
+                        "groupName":"Working Mom's Support Group",
+                        "id":"14576403586629572",
+                        "category":"group",
+                        "bulletinName":"Working Mom's Support Group 03/10/2016",
+                        "bulletinHeader":"14576405988147004",
+                        "bulletinDescription":"Mom's meet to have dinner and discuss life as a working mom.\n\nThe location is the meeting place \"Cascal\""
+                    },
+                    {
+                        "groupName":"Mountain Bike Club",
+                        "id":"14575361543409442",
+                        "category":"group",
+                        "bulletinName":"Mountain Bike Club 03/12/2016",
+                        "bulletinHeader":"14576405988147004",
+                        "bulletinDescription":"Have fun, get some exercise, fellowship.  Each week will change locations, but we always default to Steven's Creek Trails."
+                    },
+                    {
+                        "groupName":"West Coast Software Artisans",
+                        "id":"14576391408278110",
+                        "category":"group",
+                        "bulletinName":"West Coast Software Artisans 03/10/2016",
+                        "bulletinHeader":"14576405988147004",
+                        "bulletinDescription":"An artisan is a craftsman who creates premium, handmade goods.\nIn the context of software development, an artisan strives to bring the same level of care and quality to their day-to-day work.\nThis group aims to bring together forward-thinking developers of all levels to share best practices and embrace continuous learning.\n"
+                    }
+                ],
+                "id":"14576405988147004"
+            },
+            {
+                "name":"Upcoming Events",
+                "groupOrder":"14576398736677658,14576398736677658,14575364439015826,14575364439015826,1457536761218289,1457536761218289,14576410561854436,14576410561854436",
+                "groups":[
+                    {
+                        "groupName":"TobyMac Concert Group Event",
+                        "id":"14576398736677658",
+                        "category":"event",
+                        "bulletinName":"TobyMac Concert Group Event 04/15/2016",
+                        "bulletinHeader":"14576404879596043",
+                        "bulletinDescription":"Join a group of us to see TobyMac.\n\nA brand new Hits Deep Tour headlined by TobyMac and featuring Britt Nicole, Building 429, Colton Dixon, Capital Kings, Finding Favour and Hollyn "
+                    },
+                    {
+                        "groupName":"Car Show:  20th Annual A la Carte & Art",
+                        "id":"1457536761218289",
+                        "category":"event",
+                        "bulletinName":"Car Show:  20th Annual A la Carte & Art 04/30/2016",
+                        "bulletinHeader":"14576404879596043",
+                        "bulletinDescription":"This family oriented festival features music, car show, arts & crafts, food and fun!"
+                    },
+                    {
+                        "groupName":"Sunnyvale Community Services Food Collection",
+                        "id":"14575364439015826",
+                        "category":"event",
+                        "bulletinName":"Sunnyvale Community Services Food Collection 05/09/2016",
+                        "bulletinHeader":"14576404879596043",
+                        "bulletinDescription":"Collecting proteins and can goods to replenish the food pantry.  Drop offs accepted during this time frame.  Thank you in advance."
+                    },
+                    {
+                        "groupName":"Storm Cleanup Weekend",
+                        "id":"14576410561854436",
+                        "category":"event",
+                        "bulletinName":"Storm Cleanup Weekend 05/14/2016",
+                        "bulletinHeader":"14576404879596043",
+                        "bulletinDescription":"Cleaning up after the wind damage.  We will organize all tasks through HisKingdom.  Sign up for any tasks you are willing and able to help.  Thank you!"
+                    }
+                ],
+                "id":"14576404879596043"
+            }
+        ],
+        "headerOrder":"14576404879596043,14576405988147004"
+    }
+}
