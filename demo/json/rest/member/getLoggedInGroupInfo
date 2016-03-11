@@ -4,7 +4,7 @@
         "groupHasHeader":"14576404879596043",
         "groupBulletinName":"Car Show:  20th Annual A la Carte & Art 04/30/2016",
         "groupBulletinDescription":"This family oriented festival features music, car show, arts & crafts, food and fun!",
-        "groupNextStartDate":"03/11/2016",
+        "groupNextStartDate":"04/30/2016",
         "groupExpired":"false",
         "groupApproval":"true",
         "groupHobbyCollectors":"false",
@@ -66,28 +66,28 @@
                 "name":"Ted D Emo",
                 "gender":"Male",
                 "age":"35-44",
-                "email":"beboyer1@yahoo.com",
+                "email":"hiskingdominfo@gmail.com",
                 "id":"14560017092589205"
             },
             {
-                "name":"Stephen",
+                "name":"Mike",
                 "gender":"Male",
                 "age":"45-54",
-                "email":"stephen.suffian@gmail.com",
+                "email":"hiskingdominfo@gmail.com",
                 "id":"1454544060783"
             }
         ],
         "ledBy":[
             {
                 "name":"Ted D Emo",
-                "email":"beboyer1@yahoo.com",
+                "email":"hiskingdominfo@gmail.com",
                 "gender":"Male",
                 "age":"35-44",
                 "id":"14560017092589205"
             },
             {
-                "name":"Stephen",
-                "email":"stephen.suffian@gmail.com",
+                "name":"Mike",
+                "email":"hiskingdominfo@gmail.com",
                 "gender":"Male",
                 "age":"45-54",
                 "id":"1454544060783"
