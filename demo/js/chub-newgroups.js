@@ -130,7 +130,7 @@ $('#groupSubmit').click( function() {
         keyboard: false,
         backdrop: 'static'
     })
-
+    /*
     $.post("/rest/member/addLoggedInLeaderGroup",
         { name:name,
           category:category,
@@ -177,7 +177,7 @@ $('#groupSubmit').click( function() {
               resetGroupForm();
             }
             $("#myModal2Footer").show();   
-    })
+    })*/
 });
 
 
@@ -208,7 +208,7 @@ function resetGroupForm(){
 }
 
 function loadUsername(){
-    $.getJSON("/rest/member/getLoggedInUserInfo",function(userData){
+    $.getJSON("json/rest/member/getLoggedInUserInfo",function(userData){
         data = userData.statements;
         loadBanner(data);
         loadChurchOrgs(data.personHasPrimaryChurchOrg);
@@ -231,7 +231,7 @@ function loadUsername(){
 }
 
 function loadChurchOrgs(primaryChurchOrg){
-      $.getJSON('/rest/member/listChurchOrgs', function(data){
+      $.getJSON('json/rest/member/listChurchOrgs', function(data){
         orgHTML = '';
         $.each(data.statements, function (key,val){
           if(val.id != primaryChurchOrg.id){
