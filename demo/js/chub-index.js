@@ -140,7 +140,7 @@ function loadGroup(groupId){
       $.each(data.ledBy,function(key,val){
         leadersNameEmail.push(val.name+"&#60;"+val.email+"&#62;");
       })
-      $('#ledBy').html(leadersNameEmail.toString());
+      $('#ledBy').html(leadersNameEmail.toString().replace(',',', '));
       
       if(data.groupRepeats && data.groupRepeats == "true"){
             $('#startDatetime').html(data.groupNextStartDate+" "+convertTime(data.groupStartTime) + " to " + convertTime(data.groupEndTime));
