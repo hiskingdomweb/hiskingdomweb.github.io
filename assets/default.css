@@ -74,7 +74,7 @@ header {
 h1 {
 	font-weight:normal;
 	color:#f6c943;
-	font-size:42px;
+	font-size:50px;
 	margin-top:28px;
 	margin-bottom:28px;
 	text-align:center;
@@ -112,7 +112,7 @@ h1 {
 	
 p.single_content {
 	font-weight:normal;
-	color:#f6c943;
+	color:#6bebcc;
 	font-size:32px;
 	padding:30px;
 	margin:0;
@@ -182,13 +182,13 @@ a {
 h3 {
 	color:white;
 	font-weight:bold;
-	font-size:40px;
+	font-size:46px;
 }
 
 .home_icn_descrip {
 	color:white;
 	font-style: normal;
-	font-size:24px;
+	font-size:30px;
 }
 
 
