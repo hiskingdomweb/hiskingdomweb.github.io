@@ -111,9 +111,10 @@ h1 {
 	}
 	
 p.single_content {
+	text-align:center	
 	font-weight:normal;
-	color:#6bebcc;
-	font-size:32px;
+	color:#eee392;
+	font-size:28px;
 	padding:30px;
 	margin:0;
 	}
@@ -187,8 +188,8 @@ h3 {
 
 .home_icn_descrip {
 	color:white;
-	font-style: normal;
-	font-size:30px;
+	font-style: italic;
+	font-size:26px;
 }
 
 
