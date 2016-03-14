@@ -89,7 +89,8 @@ h1 {
 #home_pg_vid {
 	z-index:1;
 	}
-	
+
+
 #hk_ldrshp_rks {
 	font-style: italic;
 	font-size:32px;text-align:center;
@@ -100,7 +101,12 @@ h1 {
 	list-style:none;
 	padding:0;
 	}
-	
+
+.title_block {
+    border-bottom: 4px solid #616161;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}	
 	
 .rule {
 	height:4px;
