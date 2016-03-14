@@ -11,7 +11,7 @@ header {
 	height:134px;
 	background-size: 100% 134px;
 	box-shadow: 0 3px rgba(0,0,0,0.5);
-	background-color:#277084;
+	background-color:#287184;
 	text-align:center;
 	}
 	
@@ -102,7 +102,7 @@ h1 {
 	
 	
 .rule {
-	height:2px;
+	height:4px;
 	width:calc(100% - 60px);
 	background-color:#616161;
 	margin-left:30px;
