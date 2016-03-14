@@ -80,6 +80,27 @@ h1 {
 	text-align:center;
 	}
 
+h2 {
+	font-weight:normal;
+	color:white;
+	font-size:24px;
+	margin-bottom:28px;
+	text-align:center;
+	}
+h3 {
+	color:white;
+	font-weight:bold;
+	font-size:46px;
+}
+
+h4 {
+	font-weight:normal;
+	color:#f6c943;
+	font-size:40px;
+	margin-top:28px;
+	margin-bottom:28px;
+	text-align:center;
+	}
 	
 #video_area {
 	text-align:center;
@@ -130,13 +151,6 @@ p.person_bio {
 	color:#f6c943;
 	}
 	
-h2 {
-	font-weight:normal;
-	color:white;
-	font-size:24px;
-	margin-bottom:28px;
-	text-align:center;
-	}
 
 .person {
 	text-align:center;
@@ -187,11 +201,6 @@ a {
 	margin-bottom:20px;
 }
 
-h3 {
-	color:white;
-	font-weight:bold;
-	font-size:46px;
-}
 
 .home_icn_descrip {
 	color:white;
