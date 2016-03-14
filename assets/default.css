@@ -111,13 +111,15 @@ h1 {
 	}
 	
 p.single_content {
-	color:#898989;
+	font-weight:normal;
+	color:#f6c943;
+	font-size:42px;
 	padding:30px;
 	margin:0;
 	}
 	
 p.person_bio {
-	color:#277084;
+	color:#f6c943;
 	}
 	
 h2 {
@@ -132,6 +134,7 @@ h2 {
 	text-align:center;
 	width:100%;
 	margin-bottom:50px;
+	color:#f6c943
 	}
 
 .diagram {
@@ -178,13 +181,13 @@ a {
 
 h3 {
 	color:white;
-	font-weight:normal;
+	font-weight:bold;
 	font-size:28px;
 }
 
 .home_icn_descrip {
 	color:white;
-	font-style: italic;
+	font-style: normal;
 }
 
 
