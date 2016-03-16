@@ -1,0 +1,72 @@
+
+{
+    "statements":{
+      "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14576411652973721",
+            "groupNextStartDate":"03/10/2016",
+            "groupExpired":"false",
+            "groupHasHeader":"14576404879596043",
+            "groupBulletinName":"Storm Cleanup Weekend 05/14/2016",
+            "groupBulletinDescription":"Cleaning up after the wind damage.  We will organize all tasks through HisKingdom.  Sign up for any tasks you are willing and able to help.  Thank you!",
+            "groupOpen":"true",
+            "groupApproval":"true",
+            "groupHobbyCollectors":"false",
+            "groupHobbyMotorsports":"false",
+            "groupHobbyEntrepreneur":"false",
+            "groupHobbySocial":"false",
+            "groupHobbyAdventureSeekers":"false",
+            "groupHobbyScienceAndNature":"false",
+            "groupHobbyHistoryBuffs":"false",
+            "groupHobbyCraftersArtists":"false",
+            "groupHobbySharpenTheMind":"false",
+            "groupHobbyOutdoors":"false",
+            "groupHobbySportsFitness":"false",
+            "groupHobbyKidsFamily":"false",
+            "groupHobbyStressRelief":"false",
+            "groupHobbyMusicLover":"false",
+            "groupHasPrimaryChurchOrg":{
+                "orgName":"Demo",
+                "id":"14575351141414317"
+            },
+            "groupChildcare":"No",
+            "groupAge":"Mixed",
+            "groupGender":"Mixed",
+            "groupUsesInterests":"false",
+            "distance":2506.160426055545,
+            "groupLocationLng":"-122.03899719999998",
+            "groupLocationLat":"37.3654925",
+            "groupLocationAddress":"850 Russet Dr, Sunnyvale, CA 94087, United States",
+            "groupLocation":"Las Palmas Park",
+            "groupRepeatsSummaryText":"Calendar Summary: Daily, until 05/15/2016",
+            "groupRepeatsEndDate":"05/15/2016",
+            "groupRepeatsFrequency":"Daily",
+            "groupRepeats":"true",
+            "groupEndTime":"15:00",
+            "groupStartTime":"08:00",
+            "groupStartDate":"05/14/2016",
+            "groupGroupType":"Service",
+            "groupPurpose":"Cleaning up after the wind damage.  We will organize all tasks through HisKingdom.  Sign up for any tasks you are willing and able to help.  Thank you!",
+            "groupCategory":"event",
+            "groupName":"Storm Cleanup Weekend",
+            "nextInMillis":1457591769044,
+            "daysOfWeek":"1,2,3,4,5,6,7",
+            "score":"0.1132899784027667",
+            "prediction":{
+                "score":"0.1132899784027667",
+                "nextDate":"-24.0",
+                "groupType":"true",
+                "distance":"2506.160426055545"
+            },
+            "groupHasChurchOrg":[
+            ],
+            "id":"14576410561854436",
+            "ledBy":[
+                {
+                    "name":"Ted D Emo",
+                    "email":"hiskingdominfo@gmail.com",
+                    "gender":"Male",
+                    "age":"35-44",
+                    "id":"14560017092589205"
+                }
+            ]
+        }
+}

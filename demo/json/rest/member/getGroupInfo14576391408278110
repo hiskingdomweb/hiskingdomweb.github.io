@@ -2,11 +2,11 @@
 {
     "statements":{
             "groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14576411653049052",
+            "groupNextStartDate":"03/10/2016",
+            "groupExpired":"false",
             "groupHasHeader":"14576405988147004",
             "groupBulletinName":"West Coast Software Artisans 03/10/2016",
             "groupBulletinDescription":"An artisan is a craftsman who creates premium, handmade goods.\nIn the context of software development, an artisan strives to bring the same level of care and quality to their day-to-day work.\nThis group aims to bring together forward-thinking developers of all levels to share best practices and embrace continuous learning.\n",
-            "groupNextStartDate":"03/10/2016",
-            "groupExpired":"false",
             "groupOpen":"true",
             "groupApproval":"true",
             "groupHobbyCollectors":"false",
@@ -47,7 +47,7 @@
             "groupPurpose":"An artisan is a craftsman who creates premium, handmade goods.\nIn the context of software development, an artisan strives to bring the same level of care and quality to their day-to-day work.\nThis group aims to bring together forward-thinking developers of all levels to share best practices and embrace continuous learning.\n",
             "groupCategory":"group",
             "groupName":"West Coast Software Artisans",
-            "nextInMillis":1457597537348,
+            "nextInMillis":1457591769098,
             "daysOfWeek":"5",
             "score":"0.09062951830134243",
             "prediction":{
@@ -69,4 +69,4 @@
                 }
             ]
         }
-}
+  }

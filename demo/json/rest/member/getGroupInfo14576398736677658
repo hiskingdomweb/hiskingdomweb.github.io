@@ -1,0 +1,69 @@
+
+{
+    "statements":{
+"groupHasPrediction":"http://www.compscii.com/ontologies/0.1/GroupInterest.owl#Prediction14576411653176043",
+            "groupExpired":"false",
+            "groupHasHeader":"14576404879596043",
+            "groupBulletinName":"TobyMac Concert Group Event 04/15/2016",
+            "groupBulletinDescription":"Join a group of us to see TobyMac.\n\nA brand new Hits Deep Tour headlined by TobyMac and featuring Britt Nicole, Building 429, Colton Dixon, Capital Kings, Finding Favour and Hollyn ",
+            "groupOpen":"true",
+            "groupApproval":"true",
+            "groupHobbyCollectors":"false",
+            "groupHobbyMotorsports":"false",
+            "groupHobbyEntrepreneur":"false",
+            "groupHobbySocial":"false",
+            "groupHobbyAdventureSeekers":"false",
+            "groupHobbyScienceAndNature":"false",
+            "groupHobbyHistoryBuffs":"false",
+            "groupHobbyCraftersArtists":"false",
+            "groupHobbySharpenTheMind":"false",
+            "groupHobbyOutdoors":"false",
+            "groupHobbySportsFitness":"false",
+            "groupHobbyKidsFamily":"false",
+            "groupHobbyStressRelief":"false",
+            "groupHobbyMusicLover":"false",
+            "groupHasPrimaryChurchOrg":{
+                "orgName":"Demo",
+                "id":"14575351141414317"
+            },
+            "groupChildcare":"No",
+            "groupAge":"Mixed",
+            "groupGender":"Mixed",
+            "groupUsesInterests":"false",
+            "distance":2398.8531235134,
+            "groupLocationLng":"-119.73853309999998",
+            "groupLocationLat":"36.8097143",
+            "groupLocationAddress":"2650 E Shaw Ave, Fresno, CA 93710, United States",
+            "groupLocation":"Save Mart Center",
+            "groupRepeatsSummaryText":"Calendar Summary: Weekly on Friday, ongoing",
+            "groupRepeats":"false",
+            "groupEndTime":"22:00",
+            "groupStartTime":"20:00",
+            "groupStartDate":"04/15/2016",
+            "groupGroupType":"Fellowship",
+            "groupPurpose":"Join a group of us to see TobyMac.\n\nA brand new Hits Deep Tour headlined by TobyMac and featuring Britt Nicole, Building 429, Colton Dixon, Capital Kings, Finding Favour and Hollyn ",
+            "groupCategory":"event",
+            "groupName":"TobyMac Concert Group Event",
+            "nextInMillis":-1,
+            "daysOfWeek":"6",
+            "score":"0.11385420274648855",
+            "prediction":{
+                "score":"0.11385420274648855",
+                "nextDate":"-1.0",
+                "groupType":"true",
+                "distance":"2398.8531235134"
+            },
+            "groupHasChurchOrg":[
+            ],
+            "id":"14576398736677658",
+            "ledBy":[
+                {
+                    "name":"Mike D Emo",
+                    "email":"hiskingdominfo@gmail.com",
+                    "gender":"Male",
+                    "age":"35-44",
+                    "id":"14575243330971552"
+                }
+            ]
+        }
+}
