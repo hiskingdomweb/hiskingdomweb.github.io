@@ -112,7 +112,7 @@ function loadGroup(groupId){
     $('#editBulletinForm').show();
     $('#newGroupInBulletin').hide();
     //$.post('/rest/admin/getGroupInfo',{groupId:groupId},function(userData){
-    $.getJSON('json/rest/member/getGroupInfo',function(userData){
+    $.getJSON('json/rest/member/getGroupInfo'+groupId,function(userData){
       data = userData.statements;
       if(data.groupHasHeader){
         $("#groupBulletinHeader").val(data.groupHasHeader);
