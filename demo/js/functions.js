@@ -139,10 +139,5 @@ function loadBanner(data){
 function updateBanner(data){
     refreshExpiredPage(data);
     $('#accountName').html(data.fn + "'s Account<span class='caret'></span>");
-    if(data.personHasPrimaryChurchOrg.orgName.indexOf("Crossroads")>=0){
-      $('#leftLogo').prop('src', '../../demo/css/images/crossroads.png');
-    }
-    else if(data.personHasPrimaryChurchOrg.orgName.indexOf("Rock Prairie")>=0){
-      $('#leftLogo').prop('src','../../demo/css/images/rockPrairie.png');
-    }
+    $('#leftLogo').prop('src', '../../demo/css/images/hiskingdomlogoonlysmall.png');
 }
