@@ -162,7 +162,7 @@ function loadUsername(){
           $("#serveProgress").text(""+number+"%");
         }
         else{
-          $("#serveProgress").text("0%"); 
+          $("#serveProgress").text("100%"); 
         }
         if(data.growPercentComplete){
           number = parseInt(data.growPercentComplete);
