@@ -50,11 +50,11 @@ header {
 	float:right;
 	text-align:right;
 	color:#484848;
-	margin-right:30px;
+	margin-right:5px;
 	position:relative;
-	top:35px;
-	font-size:20px;
-	line-height:32px;
+	top:25px;
+	font-size:125%;
+	line-height:150%;
 	}
 	
 #logo {
@@ -67,7 +67,7 @@ header {
 #menu_icn {
 	right:0px;
 	float:left;
-	margin:45px;
+	margin:30px;
 	cursor:pointer;
 	}
 	
