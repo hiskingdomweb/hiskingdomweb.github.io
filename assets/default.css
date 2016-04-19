@@ -42,9 +42,10 @@ header {
 	
 #close_menu {
 	position:absolute;
-	bottom:2px;
+	bottom:65px;
 	width:100%;
 	cursor:pointer;
+	opacity: .9;
 	}
 
 #header_right_side {
