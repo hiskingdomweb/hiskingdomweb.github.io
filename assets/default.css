@@ -41,8 +41,8 @@ header {
 	}
 	
 #close_menu {
-	position:bottom;
-	bottom:20px;
+	position:absolute;
+	bottom:2px;
 	width:100%;
 	cursor:pointer;
 	}
