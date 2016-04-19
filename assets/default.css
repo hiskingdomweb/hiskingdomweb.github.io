@@ -42,6 +42,7 @@ header {
 	
 #close_menu {
 	position:absolute;
+	color:#287184	
 	bottom:65px;
 	width:100%;
 	cursor:pointer;
