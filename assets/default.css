@@ -16,9 +16,9 @@ header {
 	}
 	
 #menu {
-	position:relative;
+	position:absolute;
 	top:0px;
-	color: #f6c943;
+	color:#287184;
 	width:100%;
 	height:100%;
 	color:white;
