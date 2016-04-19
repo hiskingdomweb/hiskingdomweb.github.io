@@ -18,7 +18,7 @@ header {
 #menu {
 	display: inline;
     float: left;
-    background: #FFF;
+    background:#287184;
 	width:100%;
 	height:30px;
 	font-size:48px;
@@ -37,6 +37,7 @@ header {
 	height:calc(100% / 11);
 	margin-top:calc(100% / 11);
 	margin-top:calc(100% / 11);
+	color:#287184;
 	}
 	
 #close_menu {
@@ -219,7 +220,7 @@ a {
     }
 	#menu_list {
 		list-style-type: none;
-		background: #FFF;
+		background:#287184;
 		padding:0;
 		margin:0;
 		text-align:center;
@@ -230,7 +231,7 @@ a {
 		
 	#menu_list li {
 		float:left;
-		background: #FFF;
+		background:#287184;
 		margin:0;
 		text-align:center;
 		width:300px;
@@ -242,6 +243,6 @@ a {
 		width:auto;
 		position:absolute;
 		left:calc(50% + 517.5px);
-		top:52px;
+		right:52px;
 	}
 }
