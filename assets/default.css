@@ -82,7 +82,7 @@ h1 {
 
 h2 {
 	font-weight:normal;
-	color:#f6c943;;
+	color:#f6c943;
 	font-size:24px;
 	margin-bottom:28px;
 	text-align:center;
@@ -164,6 +164,8 @@ a {
 	max-width:1200px;
 	margin-left:auto;
 	margin-right:auto;
+    color:#f6c943;
+    text-align:center;
 	}
 
 #hiskingdome_overview_img {
