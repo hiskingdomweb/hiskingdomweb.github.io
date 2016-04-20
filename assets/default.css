@@ -34,10 +34,11 @@ header {
 	}
 	
 #menu_list li {
-	height:calc(100% / 11);
-	margin-top:calc(100% / 11);
-	margin-top:calc(100% / 11);
-	}
+	background:#287184;
+    padding: 5px;
+    margin-left: 35px;	
+    margin-right: 35px;
+    }
 	
 #close_menu {
 	position:relative;
@@ -207,7 +208,6 @@ a {
 }
 
 
-
 @media screen and (min-width: 1200px) {
     #menu {
 		height:134px;
@@ -225,8 +225,6 @@ a {
 		}
 		
 	#menu_list li {
-		float:right; 
-    	width: 250px;
 		text-align:center;
 		}
 	
