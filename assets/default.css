@@ -192,8 +192,7 @@ a {
 }
 
 .cnct_srv_grw_imgs_container {
-	width:calc(100% / 3);
-	float:left;
+	float:center;
 	text-align:center;
 	margin-bottom:20px;
 }
@@ -211,13 +210,14 @@ a {
     #menu {
 		height:134px;
 		font-size:30px;
-		z-index:2;
+		
     }
 	#menu_list {
 		list-style-type: none;
 		background-color:#287184;
 		text-align:center;
 		position:relative;
+		z-index:2;
 		}
 		
 	#menu_list li {
