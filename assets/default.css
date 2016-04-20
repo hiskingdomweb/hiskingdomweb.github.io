@@ -18,8 +18,7 @@ header {
 #menu {
 	display: inline;
     float: left;
-    background:#287184;
-	width:100%;
+    width:100%;
 	height:30px;
 	font-size:48px;
 	text-align:left;
@@ -30,23 +29,18 @@ header {
 	list-style-type: none;
 	padding:0;
 	margin:0;
-    color:#287184;
+    background-color:#287184;
 	}
 	
 #menu_list li {
 	height:calc(100% / 11);
 	margin-top:calc(100% / 11);
 	margin-top:calc(100% / 11);
-	color:#287184;
 	}
 	
 #close_menu {
-	position:absolute;
-	color:#287184	
-	bottom:65px;
-	width:100%;
+	position:relative;
 	cursor:pointer;
-	opacity: .9;
 	}
 
 #header_right_side {
@@ -220,7 +214,7 @@ a {
     }
 	#menu_list {
 		list-style-type: none;
-		background:#287184;
+		background-color:#287184;
 		padding:0;
 		margin:0;
 		text-align:center;
@@ -230,19 +224,15 @@ a {
 	}
 		
 	#menu_list li {
-		float:left;
-		background:#287184;
-		margin:0;
+		float:center;
 		text-align:center;
-		width:300px;
 		position:relative;
-		top:50px;
+		
 	}
 	
 	#close_menu {
 		width:auto;
-		position:absolute;
-		left:calc(50% + 517.5px);
-		right:52px;
+		position:relative;
+		
 	}
 }
