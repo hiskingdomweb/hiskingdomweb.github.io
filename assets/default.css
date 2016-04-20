@@ -164,7 +164,7 @@ a {
 	max-width:1200px;
 	margin-left:auto;
 	margin-right:auto;
-    color:#f6c943;
+    color:white;
     text-align:center;
 	}
 
@@ -185,6 +185,10 @@ a {
 }
 
 
+.diagram {
+    max-width: calc(100% - 20px)
+    center
+}
 
 @media screen and (min-width: 1200px) {
     #menu {
