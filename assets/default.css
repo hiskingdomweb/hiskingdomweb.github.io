@@ -27,9 +27,9 @@ header {
 	
 #menu_list {
 	list-style-type: none;
-	padding:0;
-	margin:0;
-    background-color:#287184;
+	float:right; 
+    width: 250px;
+	background-color:#287184;
     z-index:1;
 	}
 	
@@ -218,14 +218,12 @@ a {
 		list-style-type: none;
 		background-color:#287184;
 		text-align:center;
-		position:relative;
 		z-index:1;
-		height:100%;
-		width:250px
 		}
 		
 	#menu_list li {
-		float:center;
+		float:right; 
+    	width: 250px;
 		text-align:center;
 		position:relative;
 		
