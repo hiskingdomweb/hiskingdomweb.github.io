@@ -206,17 +206,13 @@ a {
 }
 
 @media screen and (max-device-width: 480px) {
-		div#wrapper {
-			width: 400px;
-		}
-			
 #menu {
 	display: inline;
-    float: left;
-    width:100%;
-	height:30px;
+    float:none;
+    width:100px;
+	height:100%;
 	font-size:48px;
-	text-align:left;
+	text-align:center;
 	z-index:2;
 	}
 	
