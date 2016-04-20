@@ -213,7 +213,7 @@ a {
 	height:100%;
 	font-size:48px;
 	text-align:center;
-	z-index:1;
+	z-index:2;
 	}
 	
 #menu_list {
@@ -221,7 +221,7 @@ a {
 	padding:0;
 	margin:0;
     background-color:#287184;
-    z-index:2;
+    z-index:1;
 	}
 	
 #menu_list li {
@@ -234,14 +234,14 @@ a {
     #menu {
 		height:134px;
 		font-size:30px;
-		z-index:1;
+		z-index:2;
     }
 	#menu_list {
 		list-style-type: none;
 		background-color:#287184;
 		text-align:center;
 		position:relative;
-		z-index:2;
+		z-index:1;
 		}
 		
 	#menu_list li {
