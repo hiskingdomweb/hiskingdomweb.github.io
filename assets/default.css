@@ -80,7 +80,28 @@ h1 {
 	text-align:center;
 	}
 
-	
+h2 {
+	font-weight:normal;
+	color:#f6c943;;
+	font-size:24px;
+	margin-bottom:28px;
+	text-align:center;
+	}
+
+h3 {
+	color:white;
+	font-weight:normal;
+	font-size:28px;
+}
+
+h4 {
+	font-weight:normal;
+	color:#f6c943;
+	font-size:30px;
+	margin-top:28px;
+	margin-bottom:28px;
+	text-align:center;
+	}
 #video_area {
 	text-align:center;
 	margin-top:20px;
@@ -111,7 +132,7 @@ h1 {
 	}
 	
 p.single_content {
-	color:#898989;
+	color:#f6c943;
 	padding:30px;
 	margin:0;
 	}
@@ -120,14 +141,6 @@ p.person_bio {
 	color:#898989;
 	}
 	
-h2 {
-	font-weight:normal;
-	color:white;
-	font-size:24px;
-	margin-bottom:28px;
-	text-align:center;
-	}
-
 .person {
 	text-align:center;
 	width:100%;
@@ -162,12 +175,6 @@ a {
 	float:left;
 	text-align:center;
 	margin-bottom:20px;
-}
-
-h3 {
-	color:white;
-	font-weight:normal;
-	font-size:28px;
 }
 
 .home_icn_descrip {
