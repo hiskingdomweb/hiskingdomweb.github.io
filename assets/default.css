@@ -215,6 +215,9 @@ a {
 		z-index:2;
     }
 	#menu_list {
+		float:right;
+		width: 250px;
+		min-height:350px;
 		list-style-type: none;
 		background-color:#287184;
 		text-align:center;
@@ -225,9 +228,7 @@ a {
 		float:right; 
     	width: 250px;
 		text-align:center;
-		position:relative;
-		
-	}
+		}
 	
 	#close_menu {
 		width:auto;
