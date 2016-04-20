@@ -186,8 +186,8 @@ a {
 
 
 .diagram {
-    max-width: calc(100% - 20px)
-    center
+    max-width: calc(100% - 20px);
+    text-align:center;
 }
 
 @media screen and (min-width: 1200px) {
