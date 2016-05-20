@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Layer: Simple</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: {lat: 40.48, lng: -86.13}
+        });
+        var infowindow = new google.maps.InfoWindow();
+      
+        // NOTE: This uses cross-domain XHR, and may not work on older browsers.
+        map.data.loadGeoJson('listTasksServeTogetherForMap.json');
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close();
+        });
+
+        /*Brad, here are the available properties shown as an example of one of the json objects.
+                "taskId":"14631992347023434",
+                "taskName":"Extensive outdoor cleaning/sprucing",
+                "taskLat":"40.48646",
+                "taskLng":"-85.99646100000001",
+                "taskAddress":"6922 Bloom Dr, Greentown, IN 46936, USA",
+                "leaderContact":"Kevin Smith((765) 438-8088)",
+                "projectName":"Green - Extensive outdoor cleaning/sprucing",
+                "attendance":"0",
+                "joined":"0",
+                "desired":"12"
+          */
+          map.data.addListener('click', function(event) {
+             infowindow.setContent(event.feature.getProperty('taskName')+
+              "<br>"+event.feature.getProperty('taskAddress'));
+             infowindow.setPosition(event.latLng);
+             infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+             infowindow.open(map);
+          });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWfVIw2B2dFh09tajya_54nflYyBNHePQ&callback=initMap">
+    </script>
+  </body>
+</html>
