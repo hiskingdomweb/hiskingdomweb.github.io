@@ -11,7 +11,7 @@ header {
 	height:134px;
 	background-size: 100% 134px;
 	box-shadow: 0 3px rgba(0,0,0,0.5);
-	background-color:#287184;
+	background-image:url("header_bg.png");
 	text-align:center;
 	}
 	
@@ -74,7 +74,7 @@ header {
 h1 {
 	font-weight:normal;
 	color:#f6c943;
-	font-size:50px;
+	font-size:42px;
 	margin-top:28px;
 	margin-bottom:28px;
 	text-align:center;
@@ -82,26 +82,26 @@ h1 {
 
 h2 {
 	font-weight:normal;
-	color:white;
+	color:#f6c943;
 	font-size:24px;
 	margin-bottom:28px;
 	text-align:center;
 	}
+
 h3 {
 	color:white;
-	font-weight:bold;
-	font-size:46px;
+	font-weight:normal;
+	font-size:28px;
 }
 
 h4 {
 	font-weight:normal;
 	color:#f6c943;
-	font-size:40px;
+	font-size:30px;
 	margin-top:28px;
 	margin-bottom:28px;
 	text-align:center;
 	}
-	
 #video_area {
 	text-align:center;
 	margin-top:20px;
@@ -110,27 +110,20 @@ h4 {
 #home_pg_vid {
 	z-index:1;
 	}
-
-
+	
 #hk_ldrshp_rks {
-	font-style: italic;
-	font-size:32px;text-align:center;
-	color:#f6c943;
+	text-align:center;
+	color:#898989;
 	}
 	
 .person_links {
 	list-style:none;
 	padding:0;
 	}
-
-.title_block {
-    border-bottom: 4px solid #616161;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-}	
+	
 	
 .rule {
-	height:4px;
+	height:2px;
 	width:calc(100% - 60px);
 	background-color:#616161;
 	margin-left:30px;
@@ -139,38 +132,21 @@ h4 {
 	}
 	
 p.single_content {
-	text-align:center	
-	font-weight:normal;
-	color:#eee392;
-	font-size:28px;
+	color:#f6c943;
 	padding:30px;
 	margin:0;
 	}
 	
 p.person_bio {
-	color:#f6c943;
+	color:#898989;
 	}
 	
-
 .person {
 	text-align:center;
 	width:100%;
 	margin-bottom:50px;
-	color:#f6c943
-	}
-
-.diagram {
-	text-align:center;
-	width:100%;
-	margin-bottom:50px;
 	}
 	
-.socialmedia {
-	text-align:center;
-	width:100%;
-	margin-bottom:50px;
-	}
-
 footer {
 	background-color:rgba(0,0,0,0.25);
 	color:white;
@@ -188,6 +164,8 @@ a {
 	max-width:1200px;
 	margin-left:auto;
 	margin-right:auto;
+    color:white;
+    text-align:center;
 	}
 
 #hiskingdome_overview_img {
@@ -201,14 +179,16 @@ a {
 	margin-bottom:20px;
 }
 
-
 .home_icn_descrip {
 	color:white;
 	font-style: italic;
-	font-size:26px;
 }
 
 
+.diagram {
+    max-width: calc(100% - 20px);
+    text-align:center;
+}
 
 @media screen and (min-width: 1200px) {
     #menu {
@@ -231,13 +211,13 @@ a {
 		text-align:center;
 		width:300px;
 		position:relative;
-		top:50px;
+		top:37.5px;
 	}
 	
 	#close_menu {
 		width:auto;
 		position:absolute;
 		left:calc(50% + 517.5px);
-		top:52px;
+		top:41px;
 	}
 }
