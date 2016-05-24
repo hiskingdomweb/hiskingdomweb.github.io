@@ -45,6 +45,43 @@ header {
 	width:100%;
 	cursor:pointer;
 	}
+#googlemap {
+	width:80%;
+	height:400px;
+}
+
+@media screen and (min-width: 1200px) {
+    #menu {
+		height:134px;
+		font-size:30px;
+    }
+	#menu_list {
+		list-style-type: none;
+		padding:0;
+		margin:0;
+		text-align:center;
+		width:auto;
+		position:absolute;
+		/*left:calc(50% - 450px);*/
+		left:calc(50% - 600px);
+	}
+		
+	#menu_list li {
+		float:left;
+		margin:0;
+		text-align:center;
+		width:300px;
+		position:relative;
+		top:37.5px;
+	}
+	
+	#close_menu {
+		width:auto;
+		position:absolute;
+		left:calc(50% + 517.5px);
+		top:41px;
+	}
+}
 
 #header_right_side {
 	float:right;
@@ -188,36 +225,4 @@ a {
 .diagram {
     max-width: calc(100% - 20px);
     text-align:center;
-}
-
-@media screen and (min-width: 1200px) {
-    #menu {
-		height:134px;
-		font-size:30px;
-    }
-	#menu_list {
-		list-style-type: none;
-		padding:0;
-		margin:0;
-		text-align:center;
-		width:900px;
-		position:absolute;
-		left:calc(50% - 450px);
-	}
-		
-	#menu_list li {
-		float:left;
-		margin:0;
-		text-align:center;
-		width:300px;
-		position:relative;
-		top:37.5px;
-	}
-	
-	#close_menu {
-		width:auto;
-		position:absolute;
-		left:calc(50% + 517.5px);
-		top:41px;
-	}
 }
