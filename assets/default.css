@@ -109,7 +109,7 @@ header {
 	}
 	
 h1 {
-	font-weight:normal;
+	font-weight:bold;
 	color:#f6c943;
 	font-size:42px;
 	margin-top:28px;
@@ -133,7 +133,7 @@ h3 {
 
 h4 {
 	font-weight:normal;
-	color:#ffffff;
+	color:#f6c943;
 	font-size:28px;
 	margin-top:10px;
 	margin-bottom:10px;
