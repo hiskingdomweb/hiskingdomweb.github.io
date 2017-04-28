@@ -161,6 +161,9 @@ h4.header-small {
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
+.logo:hover {
+	opacity: .8;
+}
 .header-solid .logo{
 	line-height: 60px;
 	margin: 0;
