@@ -19,7 +19,7 @@ $('.menuButton').bind('click', function(){
 })
 
 $("#overmenu").on("click", "a", function(event){
-   $('.btn').toggleClass('.menuButton');
+   $('.btn').toggleClass('activeBtn');
         if (open===0) {
           $("#overmenu").animate({"margin-right": '+=101%'});
           open=1;
