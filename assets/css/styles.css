@@ -196,7 +196,7 @@ a .logo-color {
 .btn {
 	display: block;
 	height: 2px;
-	width: 24px;
+	width: 20px;
 	z-index: 12;
 	background: #fff;
 	position: relative;
@@ -211,7 +211,7 @@ a .logo-color {
 	top: -6px;
 	left: 0;
 	height: 2px;
-	width: 24px;
+	width: 20px;
 	background: #fff;
 	-moz-transition-duration: .2s;
 	-o-transition-duration: .2s;
@@ -224,7 +224,7 @@ a .logo-color {
 	top: 6px;
 	left: 0;
 	height: 2px;
-	width: 24px;
+	width: 20px;
 	background: #fff;
 	-moz-transition-duration: .2s;
 	-o-transition-duration: .2s;
