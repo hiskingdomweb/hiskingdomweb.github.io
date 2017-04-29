@@ -1302,17 +1302,17 @@ p {
 	width: 100%;
 }
 .video-btn {
-  width: 60px;
-  height: 60px;
-  margin-top: 50px;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
-  border-radius: 30px;
+	width: 70px;
+	height: 70px;
+	margin-top: 75px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
 }
 .video-btn:before {
   width: 10px;
   height: 14px;
-	top: 39%;
+	top: 41%;
 }
 .text-box {
 	width: 100%;
@@ -1339,7 +1339,7 @@ p {
 	text-align: center;
 }
 .volunteer-img {
-	width: 350px;
+	width: 275px;
 	margin: 0;
 	float: none;
 	text-align: center;
@@ -1564,16 +1564,41 @@ h1 {
 	padding: 0 15px;
 }
 .banner-text {
-    font-size: 40px;
-    line-height: 50px;
+  font-size: 33px;
+  line-height: 43px;
 }
-footer {
-    padding: 50px 0 25px;
+.text-box {
+	padding-top: 50px;
 }
-
+.banner .text-box p {
+	font-size: 15px;
+	line-height: 30px;
+}
+.video-btn {
+	margin-top: 50px;
+}
+.volunteer {
+	padding: 75px 0 25px 0;
+}
 .volunteer-img {
 	width: 200px;
 }
+.icon-section h1 {
+	padding-bottom: 50px;
+}
+.download {
+	padding: 75px 0;
+}
+.download-btns {
+	margin-top: 40px;
+}
+footer {
+  padding: 50px 0 25px;
+}
+footer li {
+	margin: 0 10px;
+}
+
 
 }
 
@@ -1585,5 +1610,36 @@ footer {
 =================================================================================================================================================================================================================================================================================================================================================================*/
 
 @media all and (max-width: 400px) {
+
+.banner-text {
+  font-size: 28px;
+  line-height: 35px;
+}
+.text-box .basic-button {
+	margin: 25px auto 0;
+}
+.video-btn {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+.video-btn:before {
+	top: 37%;
+}
+.download .basic-button.apple {
+	margin: 0;
+}
+.download li {
+	margin: 0 0 25px 0;
+}
+.download li:last-child {
+	padding-bottom: 0;
+}
+footer li {
+  margin: 0 7px;
+}
 
 }
