@@ -41,16 +41,16 @@ $("#overmenu").on("click", "a", function(event){
 //     navbar.css({'background-color': '#fff', 'box-shadow': '0px 2px 10px 0px rgba(88, 82, 71, 0.25)'});
 // });
 
-var offset = $('.video-btn').offset().top;
-var navbar = $('.header');
+// var offset = $('.video-btn').offset().top;
+// var navbar = $('.header');
 
-$(document).scroll(function() {
-	position = $(this).scrollTop();
-  if (position < offset)
-  	navbar.removeClass("header-solid");
-  else
-		navbar.addClass("header-solid");
-});
+// $(document).scroll(function() {
+// 	position = $(this).scrollTop();
+//   if (position < offset)
+//   	navbar.removeClass("header-solid");
+//   else
+// 		navbar.addClass("header-solid");
+// });
 
 
 /*------------------------------------------
