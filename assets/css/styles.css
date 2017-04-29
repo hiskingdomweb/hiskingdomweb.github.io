@@ -186,19 +186,22 @@ a .logo-color {
 	width: 100%;
 }
 .menuButton {
-	display: block;
 	float: right;
+	right: 0;
 	width: 15px;
 	height: 15px;
-	margin-top: 15px;
+	margin: 15px 45px 0 0;
 	padding: 15px;
+	display: block;
+	z-index: 12;
+	position: fixed;
 }
 .btn {
 	display: block;
 	height: 2px;
-	width: 20px;
+	width: 24px;
 	z-index: 12;
-	background: #fff;
+	background: #ccd8e5;
 	position: relative;
 	-moz-transition-duration: .2s;
 	-o-transition-duration: .2s;
@@ -211,8 +214,8 @@ a .logo-color {
 	top: -6px;
 	left: 0;
 	height: 2px;
-	width: 20px;
-	background: #fff;
+	width: 24px;
+	background: #ccd8e5;
 	-moz-transition-duration: .2s;
 	-o-transition-duration: .2s;
 	-webkit-transition-duration: .2s;
@@ -224,8 +227,8 @@ a .logo-color {
 	top: 6px;
 	left: 0;
 	height: 2px;
-	width: 20px;
-	background: #fff;
+	width: 24px;
+	background: #ccd8e5;
 	-moz-transition-duration: .2s;
 	-o-transition-duration: .2s;
 	-webkit-transition-duration: .2s;
@@ -955,9 +958,6 @@ footer .twitter:hover:before {
 .container {
 	padding: 0 50px;
 }
-.menuButton {
-	right: 30px;
-}
 p {
 	font-size: 14px;
 	line-height: 28px;
@@ -1535,6 +1535,9 @@ h1 {
 .container {
     padding: 0 25px;
 }
+.menuButton {
+	margin: 15px 19px;
+}
 
 /*******************************
 	Internal Pages
@@ -1559,11 +1562,11 @@ h1 {
 	font-size: 30px;
 	line-height: 32px;
 }
-.menuButton {
-	right: 15px;
-}
 .container {
 	padding: 0 15px;
+}
+.menuButton {
+  margin: 15px 9px;
 }
 .banner-text {
   font-size: 33px;
