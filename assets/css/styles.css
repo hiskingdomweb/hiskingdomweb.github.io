@@ -186,7 +186,7 @@ a .logo-color {
 	width: 100%;
 }
 .menuButton {
-	display: inline-block;
+	display: block;
 	float: right;
 	width: 15px;
 	height: 15px;
