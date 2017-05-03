@@ -501,7 +501,7 @@ span.menu-subject {
 }
 .chat-box p {
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 24px;
 		color: #fff;
 		font-weight: 500;
 		font-size: 14px;
@@ -846,6 +846,210 @@ footer .twitter:hover:before {
 /*******************************
 	Internal Pages
 ********************************/
+/*Internal-Banner*/
+.internal-banner-c {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+	display: table;
+	height: 400px;
+	background-image: url("assets/../../images/community-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.internal-banner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.internal-text-box {
+  display: inline-block;
+	text-align: center;
+}
+.internal-banner-text {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 58px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/*Internal Intro*/
+.intro-c {
+	padding: 100px 0;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.intro-h {
+	margin-bottom: 35px;
+}
+.intro-c p {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/*Internal Team*/
+.team-c {
+	background: #F6F9FA;
+	width: 100%;
+	padding: 100px 0;
+}
+.team-image {
+	display: inline-block;
+  width: calc(33.33% - 53px);
+	padding: 0 25px;
+}
+.team-image img {
+	width: 100%;
+}
+.team-image h3 {
+	font-family: "Roboto", sans-serif;
+	color: #4B595C;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.team-image p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: left;
+}
+.team-image .linked {
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: 25px;
+	background: #DAE3F0;
+	color: #4875B4;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+}
+.team-image .linked:before {
+	content: "\f0e1";
+  font-family: "FontAwesome";
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+}
+.team-image .linked:hover {
+	background: #4875B4;
+}
+.team-image .linked:hover:before {
+	color: #fff;
+}
+
+/*Internal Community*/
+.community-c {
+	background: #F6F9FA;
+	width: 100%;
+	padding: 100px 0;
+}
+.c-c {
+	display: inline-block;
+	width: calc(50% - 62px);
+	padding: 0 30px;
+}
+.twitter-feed {
+	text-align: center;
+}
+.testimonials-t {
+	margin-bottom: 35px;
+}
+.testimonials-table {
+	display: table;
+	height: 604px;
+	margin: 0 auto;
+	text-align: center;
+}
+.testimonials-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.testimonial-video iframe{
+	width: 500px;
+	height: 281px;
+}
+
+/*Internal Pricing*/
+.pricing-c {
+	background: #F6F9FA;
+	width: 100%;
+	padding: 100px 0;
+}
+.price-box {
+	display: inline-block;
+	width: calc(50% - 34px);
+	border: 1px solid #297084;
+	text-align: center;
+	margin: 0 15px;
+	min-height: 632.5px;
+	vertical-align: top;
+}
+.price-top {
+	display: inline-block;
+	width: 100%;
+	background: #297084;
+	text-align: center;
+}
+.price-top h4 {
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 8px;
+	margin: 0;
+	padding: 50px 0;
+}
+.price-details {
+    padding: 100px;
+}
+.price-details h2 {
+	font-size: 48px;
+	color: #297084;
+	font-weight: 300;
+	line-height: 36px;
+	margin: 0 0 50px 0;
+}
+.price-details span {
+	display: block;
+	font-size: 15px;
+	color: #297084;
+	font-weight: 300;
+}
+.price-details p {
+    font-weight: 300;
+    font-size: 15px;
+}
+.price-details .basic-button {
+	background: #C9DBE0;
+	color: #297084;
+	display: inline-block;
+	float: none;
+}
+.price-details .basic-button:hover {
+	color: #fff;
+	background: #297084;
+}
+.price-two h2 {
+	margin: 0 0 86px 0;
+}
+
 
 
 /*=================================================================================================================================================================================================================================================================================================================================================================
@@ -882,6 +1086,14 @@ footer .twitter:hover:before {
 .icon-c {
   width: calc(33.33% - 83px);
   padding: 0px 40px;
+}
+
+/*******************************
+	Internal Pages
+********************************/
+.testimonial-video iframe {
+    width: 400px;
+    height: 227px;
 }
 
 }
@@ -1035,6 +1247,20 @@ p {
 .download li {
 	float: none;
 	padding: 0 10px;
+}
+
+/*******************************
+	Internal Pages
+********************************/
+.testimonial-video iframe {
+  width: 300px;
+  height: 169px;
+}
+.price-box {
+	min-height:inherit;
+}
+.price-details {
+    padding: 80px;
 }
 
 }
@@ -1210,11 +1436,52 @@ p {
   padding: 50px 0 0 13px;
 }
 
+/*******************************
+	Internal Pages
+********************************/
+/*Team*/
+.team-image p {
+	font-size: 13px;
+	line-height: 26px;
+}
+.team-image h3 {
+	font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+/*Community*/
+.c-c {
+	width: 100%;
+	padding: 0;
+}
+.twitter-feed {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+.testimonials {
+	text-align: center;
+}
+.testimonials-table {
+	width: 100%;
+	height: auto;
+}
+.testimonials-table-cell {
+	display: inline-block;
+}
+.testimonial-video iframe {
+  width: 500px;
+  height: 281px;
+}
+/*Pricing*/
+.price-details {
+  padding: 100px 50px;
+}
+
 }
 
 /*=================================================================================================================================================================================================================================================================================================================================================================
 
-	Media Query :: 991px
+	Media Query :: 900px
 
 =================================================================================================================================================================================================================================================================================================================================================================*/
 
@@ -1253,6 +1520,15 @@ p {
   margin: 40px 0px 0 0px;
 }
 
+/*Pricing*/
+.price-details {
+    padding: 50px 25px;
+}
+.price-top h4 {
+	font-size: 15px;
+	letter-spacing: 6px;
+}
+
 }
 
 /*=================================================================================================================================================================================================================================================================================================================================================================
@@ -1263,6 +1539,10 @@ p {
 
 @media all and (max-width: 768px) {
 
+h1 {
+	font-size: 28px;
+	line-height: 38px;
+}
 /*Header*/
 .mobile {
 	display: inline-block;
@@ -1390,6 +1670,23 @@ p {
 	margin-bottom: 3px;
 }
 
+/*******************************
+	Internal Pages
+********************************/
+/*Team Image*/
+.team-image {
+  width: calc(33.33% - 33px);
+  padding: 0 15px;
+}
+.internal-banner-text {
+	font-size: 38px;
+	line-height: 48px;
+}
+/*Community*/
+.intro-h {
+  margin-bottom: 20px;
+}
+
 /*Footer*/
 footer {
 	width: 100%;
@@ -1511,16 +1808,38 @@ h1 {
 	line-height: 44px;
 }
 
-
-
-
 /*******************************
 	Internal Pages
 ********************************/
-.internal-container {
-	padding: 0 50px;
+.team-c {
+	text-align: center;
 }
-
+.team-image {
+	width: 65%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.team-image:last-child {
+	margin-bottom: 0;
+}
+.team-image h3 {
+	text-align: center;
+}
+.team-image p {
+	text-align: center;
+}
+.team-image .linked {
+	float: none;
+	margin: 25px auto 0 0;
+}
+/*Pricing*/
+.price-box {
+	width: 100%;
+	margin: 50px 0;
+}
+.price-box:last-child {
+	margin-top: 25px;
+}
 
 }
 
@@ -1542,7 +1861,10 @@ h1 {
 /*******************************
 	Internal Pages
 ********************************/
-
+.testimonial-video iframe {
+  width: 425px;
+  height: 239px;
+}
 
 }
 
@@ -1591,15 +1913,32 @@ h1 {
 .icon-section h1 {
 	padding-bottom: 50px;
 }
+/*Download*/
 .download {
 	padding: 75px 0;
 }
 .download-btns {
 	margin-top: 40px;
 }
+
+/*******************************
+	Internal Pages
+********************************/
+/*Team Iamge*/
+.team-image {
+	width: 90%;
+}
+/*Community*/
+.testimonial-video iframe {
+  width: 300px;
+  height: 169px;
+}
+
+
 footer {
   padding: 50px 0 25px;
 }
+
 footer li {
 	margin: 0 10px;
 }
@@ -1643,6 +1982,17 @@ footer li {
 .download li:last-child {
 	padding-bottom: 0;
 }
+
+/*******************************
+	Internal Pages
+********************************/
+/*Community*/
+.testimonial-video iframe {
+  width: 280px;
+  height: 157px;
+}
+
+
 footer li {
   margin: 0 7px;
 }
