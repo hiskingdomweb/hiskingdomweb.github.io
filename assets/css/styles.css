@@ -981,9 +981,14 @@ footer .twitter:hover:before {
 	display: table-cell;
 	vertical-align: middle;
 }
-.testimonial-video iframe{
+.testimonial-video iframe {
 	width: 500px;
 	height: 281px;
+}
+.community-wall {
+	width: 100%;
+	padding: 50px 0;
+	display: inline-block;
 }
 
 /*Internal Pricing*/
