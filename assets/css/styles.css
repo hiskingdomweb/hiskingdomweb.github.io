@@ -985,6 +985,9 @@ footer .twitter:hover:before {
 	width: 500px;
 	height: 281px;
 }
+.juicer-feed h1.referral {
+	display: none !important;
+}
 .community-wall {
 	width: 100%;
 	padding: 50px 0;
