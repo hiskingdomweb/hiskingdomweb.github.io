@@ -960,37 +960,21 @@ footer .twitter:hover:before {
 	width: 100%;
 	padding: 100px 0;
 }
-.c-c {
-	display: inline-block;
-	width: calc(50% - 62px);
-	padding: 0 30px;
-}
-.twitter-feed {
+.testimonials {
+	display: block;
+	width: 100%;
 	text-align: center;
+	padding-bottom: 100px;
 }
 .testimonials-t {
-	margin-bottom: 35px;
-}
-.testimonials-table {
-	display: table;
-	height: 604px;
-	margin: 0 auto;
-	text-align: center;
-}
-.testimonials-table-cell {
-	display: table-cell;
-	vertical-align: middle;
-}
-.testimonial-video iframe {
-	width: 500px;
-	height: 281px;
+
 }
 .juicer-feed h1.referral {
 	display: none !important;
 }
 .community-wall {
 	width: 100%;
-	padding: 50px 0;
+	padding: 50px 0 0 0;
 	display: inline-block;
 }
 
