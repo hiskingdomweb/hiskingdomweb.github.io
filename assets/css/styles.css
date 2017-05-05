@@ -969,6 +969,7 @@ footer .twitter:hover:before {
 	margin-bottom: 50px;
 }
 .flexslider {
+	margin: 0 0 50px !important;
 	background: none !important;
 	border: none !important;
 }
