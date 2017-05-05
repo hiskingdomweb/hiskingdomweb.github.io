@@ -967,11 +967,17 @@ footer .twitter:hover:before {
 	padding-bottom: 100px;
 }
 .testimonials-t {
-	margin-bottom: 35px;
+	margin-bottom: 50px;
 }
 .flexslider {
 	background: none !important;
 	border: none !important;
+}
+.flex-control-nav {
+	display: none !important;
+}
+.flex-direction-nav {
+    display: none !important;
 }
 .juicer-feed h1.referral {
 	display: none !important;
@@ -987,14 +993,14 @@ footer .twitter:hover:before {
 }
 .testimonials .name {
 	display: block;
-	color: #444;
+	color: #4B595C;
 	font-size: 22px;
 	line-height: 22px;
 	font-weight: 600;
 	margin-bottom: 5px;
 }
 .testimonials .organization {
-	color: #444;
+	color: #4B595C;
 	font-size: 14px;
 	font-style: italic;
 	font-weight: 400;
