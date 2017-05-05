@@ -967,10 +967,33 @@ footer .twitter:hover:before {
 	padding-bottom: 100px;
 }
 .testimonials-t {
-
+	margin-bottom: 35px;
+}
+.flexslier {
+	background-color: none;
+	border: none;
 }
 .juicer-feed h1.referral {
 	display: none !important;
+}
+.testimonials img {
+	width: 60px;
+	margin-bottom: 25px;
+}
+.testimonials p {
+	font-size: 16px;
+	line-height: 32px;
+	margin-bottom: 25px;
+}
+.testimonials .name {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.testimonials .organization {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 300;
 }
 .community-wall {
 	width: 100%;
@@ -1803,6 +1826,9 @@ h1 {
 /*******************************
 	Internal Pages
 ********************************/
+.internal-banner-c {
+	height: 300px;
+}
 .team-c {
 	text-align: center;
 }
