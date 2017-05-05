@@ -903,6 +903,7 @@ footer .twitter:hover:before {
 	display: inline-block;
   width: calc(33.33% - 53px);
 	padding: 0 25px;
+	vertical-align: top;
 }
 .team-image img {
 	width: 100%;
