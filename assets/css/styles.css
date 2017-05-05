@@ -1837,7 +1837,10 @@ h1 {
 	Internal Pages
 ********************************/
 .internal-banner-c {
-	height: 300px;
+	height: 250px;
+}
+.internal-banner-text {
+	padding-top: 40px;
 }
 .team-c {
 	text-align: center;
