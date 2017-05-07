@@ -832,6 +832,35 @@ footer .twitter:hover {
 footer .twitter:hover:before {
 	color: #fff;
 }
+footer .instagram {
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: #E8D8F1;
+	color: #8a3ab9;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+}
+footer .instagram:before {
+	content: "\f16d";
+  font-family: "FontAwesome";
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+}
+footer .instagram:hover {
+	background: #8a3ab9;
+}
+footer .instagram:hover:before {
+	color: #fff;
+}
 .sub-footer {
     display: block;
     float: left;
