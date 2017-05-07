@@ -835,6 +835,7 @@ footer .twitter:hover:before {
 footer .instagram {
 	display: inline-block;
 	float: left;
+	margin-right: 25px;
 	width: 50px;
 	height: 50px;
 	background: #E8D8F1;
