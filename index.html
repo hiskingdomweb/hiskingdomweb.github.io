@@ -14,11 +14,13 @@
 	<link rel="image_src" href="assets/images/facebook-icon.png" />
 
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
-	<script src="https://use.fontawesome.com/99e5fd7188.js"></script>
 	<script src="assets/scripts/jquery-3.1.1.min.js"></script>
 	<script src="assets/scripts/scripts.js"></script>
+	<script src="assets/scripts/popup.js"></script>
+	<script src="https://use.fontawesome.com/99e5fd7188.js"></script>
 </head>
 
 
@@ -26,14 +28,11 @@
 
 <div class="wrapper">
 
-	<!-------------------------------
-		Header
-	--------------------------------->
 	<header class="header">
 		<div class="container">
 
 				<h1 class="logo">
-					<a href="index.html"><img class="logo-white" src="assets/images/logo.svg"></a>
+					<a href="index.html"><img class="logo-white" src="assets/images/logo2.svg"></a>
 					<a href="index.html"><img class="logo-color" src="assets/images/logo2.svg"></a>
 				</h1>
 
@@ -43,120 +42,138 @@
 				</a>
 				<div id="overmenu">
 				  <ul>
-				    <li><a href="pricing.html"><span>Pricing</span></a></li>
-						<li><a href="team.html"><span>Team</span></a></li>
-						<li><a href="community.html"><span>Community</span></a></li>
-						<!-- <li><a href="https://www.needsgap.com/login"><span>Login</span></a></li> -->
+					<li><a href="#">Organizers</a></li>
+					<li><a href="#">Volunteers</a></li>
+					<li><a href="community.html">Community</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="pricing.html">Buy Now</a></li>
 				  </ul>
 				</div><!-- overmenu -->
 			</div><!-- mobile -->
 
 			<div class="menu-links">
 				<ul>
-					<li><a href="pricing.html">Pricing</a></li>
-					<li><a href="team.html">Team</a></li>
+					<li><a href="#">Organizers</a></li>
+					<li><a href="#">Volunteers</a></li>
 					<li><a href="community.html">Community</a></li>
-					<!-- <li><a href="https://www.needsgap.com/login">Login</a></li> -->
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="pricing.html">Buy Now</a></li>
 				</ul>
 			</div><!-- menu-links -->
 
 		</div><!-- container -->
 	</header>
 
-	<div class="banner-c">
-		<div class="banner">
-			<div class="container">
-				<div class="text-box">
-					<h1 class="banner-text">People & Community<br>Together With Purpose</h1>
-					<p>Intelligently connects people to the right opportunities through predictive services and mobile platforms.</p>
-					<a class="basic-button banner-btn" href="#">Learn More</a>
-				</div>
-				<div class="video">
-					<a class="video-btn nav-open" href="https://vimeo.com/214999453" target="blank"></a>
-				</div>
-			</div><!-- container -->
-		</div><!-- banner -->
-	</div><!-- banner-c -->
-
-	<!-------------------------------
-		Volunreer Section
-	--------------------------------->
-	<div class="volunteer">
+	<div class="banner">
 		<div class="container">
-
-			<div class="volunteer-left">
-				<div class="chat-box">
-					<p>CommunityHero helped bring everyone together.</p>
-				</div>
-				<div class="volunteer-img">
-					<img src="assets/images/volunteer-image3.jpg">
-				</div>
-			</div><!-- volunteer-left -->
-
-			<div class="volunteer-right">
-				<div class="volunteer-icon"></div>
-				<h1>Our Mission</h1>
-				<p>You have the power to create and support opportunities ranging from small affinity groups to large multi-organizational events. Be a part of the NeedsGap network, a social network focused on making a difference in community.</p>
-				<a class="basic-button" href="#">Learn More</a>
-			</div><!-- volunteer-right -->
-
+			<div class="text-box">
+				<h1 class="banner-text nav-open">We Make Helping Easy</h1>
+				<p>A new, simpler tool for the management of volunteers, groups, or events</p>
+				<a class="basic-button" href="#">Buy Now</a>
+				<a class="basic-button outline popup-vimeo" href="https://vimeo.com/214999453">Learn More</a>
+			</div>
+			<div class="banner-image">
+				<img src="assets/images/banner.jpg">
+			</div>
 		</div><!-- container -->
-	</div><!-- volunteer -->
+	</div><!-- banner -->
 
 	<div class="icon-section">
 		<div class="container">
-			<h1>CommunityHero Values</h1>
+			<h1>Think Big</h1>
 			<div class="icon-c">
-				<img class="icon-1" src="assets/images/connect-icon.png">
-				<h3>Connect</h3>
-				<p>Provide a means for people to communicate needs to your organization</p>
+				<img class="icon-1" src="assets/images/team-icon.jpg">
+				<h3>Collaborate</h3>
+				<p>Partner with other groups within your community or with other organizations by checking a box</p>
 			</div>
 			<div class="icon-c">
-				<img class="icon-2" src="assets/images/serve-icon.png">
-				<h3>Serve</h3>
-				<p>Identify leaders and grow their abilities by creating leadership opportunities</p>
+				<img class="icon-2" src="assets/images/know-icon.jpg">
+				<h3>Know</h3>
+				<p>Visibility into the capabilities of volunteers, and identify needs directly from the community</p>
 			</div>
 			<div class="icon-c">
-				<img class="icon-3" src="assets/images/grow-icon.png">
-				<h3>Grow</h3>
-				<p>Reach out with a highly scalable platform that brings you interested people</p>
+				<img class="icon-3" src="assets/images/recruit-icon.jpg">
+				<h3>Recruit</h3>
+				<p>A network that allows volunteers to follow communities of interest, and participate in a volunteer pool</p>
+			</div>
+			<div class="icon-c">
+				<img class="icon-4" src="assets/images/achieve-icon.jpg">
+				<h3>Achieve</h3>
+				<p>Magnify your community's impact and open the door to possibilities that once seemed impossible</p>
 			</div>
 		</div><!-- container -->
 	</div><!-- icon-section -->
 
-	<!-------------------------------
-		Devices
-	--------------------------------->
-	<div class="tech">
+	<div class="dashboard-section">
 		<div class="container">
-
-			<div class="tech-l">
-				<div class="macbook">
-					<img src="assets/images/macbook.png">
-				</div>
-				<div class="tech-icon"></div>
-				<h1>We Have the Tools<br> to Help</h1>
-				<p>Intelligently connects people to the right opportunities through predictive services and mobile platforms.</p>
-				<a class="basic-button" href="#">Pricing</a>
-			</div><!-- tech-l -->
-			<div class="tech-r">
-				<div class="iphone">
-					<img src="assets/images/iphone.png">
-				</div>
-				<div class="iphone-bubble">
-					<p>Control an entire event and project in one place!</p>
-				</div>
-			</div><!-- tech-r -->
-
+			<div class="dashboard">
+				<div class="dashboard-text-r">
+					<h1 class="dashboard-h">An Intuitive, Powerful</br>Dashboard & Tools</h1>
+					<p class="dashboard-p">Easily understandable information at a glance to inform, adjust course, and to communicate quickly</p>
+					<a class="basic-button" href="#">Learn More</a>
+				</div><!-- dashboard-text-r -->
+				<div class="dashboard-image">
+					<img src="assets/images/dashboard.jpg">
+				</div><!-- dashboard-image -->
+				<div class="dashboard-image-mobile mobile">
+					<img src="assets/images/dashboard-mobile.jpg">
+				</div><!-- dashboard-image -->				
+			</div><!-- dashbaord -->
 		</div><!-- container -->
-	</div><!-- tech -->
+	</div><!-- dashboard-section -->
 
-	<!-------------------------------
-		Download
-	--------------------------------->
+	<div class="app-section">
+		<div class="container">
+			<div class="app-one">
+				<div class="app-text-l">
+					<h1 class="app-h">Lead</h1>
+					<p class="app-p">Manage organizations, events, and projects via an intuitive mobile app which allows instant communication</p>
+				</div><!-- app-text-l -->
+				<div class="app-image">
+					<img src="assets/images/lead-graphic.jpg">
+				</div><!-- app-image -->
+			</div><!-- app-one -->
+			<div class="app-two">
+				<div class="app-text-r">
+					<h1 class="app-h">Express</h1>
+					<p class="app-p">A communication tool that you can quickly reach out for help, or message a group or individual</p>
+				</div><!-- app-text-l -->
+				<div class="app-image-l">
+					<img src="assets/images/express-graphic.jpg">
+				</div><!-- app-image -->
+			</div><!-- app-two -->
+			<div class="app-three">
+				<div class="app-text-l">
+					<h1 class="app-h">Find</h1>
+					<p class="app-p">Easily find volunteers by skill and distance to organize and fill a project quickly</p>
+				</div><!-- app-text-l -->
+				<div class="app-image">
+					<img src="assets/images/find-graphic.jpg">
+				</div><!-- app-image -->
+			</div><!-- app-three -->
+		</div><!-- container -->
+	</div><!-- app-section -->
+
+	<div class="volunteer-section">
+		<div class="container">
+			<div class="volunteer">
+				<div class="volunteer-image">
+					<img src="assets/images/volunteer-image.png">
+				</div>
+				<div class="volunteer-text">
+					<h1 class="volunteer-h">Eliminate the Noise, Empower Volunteers</h1>
+					<p class="volunteer-p">Volunteers receive notifications on opportunities matching their profile, and submit needs directly from the app</p>
+					<a class="basic-button" href="#">Learn More</a>
+				</div>
+			</div><!-- volunteer -->
+		</div><!-- container -->
+	</div><!-- volunteer-section -->
+
 	<div class="download">
 		<div class="container">
-			<h1>A mobile platform that encourages active volunteerism for all user types</h1>
+			<div class="download-h">
+				<h1>A Free Mobile Application Enabling Active Volunteerism</h1>
+			</div>
 			<div class="download-btns">
 				<ul>
 					<li><a class="basic-button apple" href="https://itunes.apple.com/us/app/communityhero/id1225594076?mt=8" target="blank">Apple</a></li>
@@ -166,30 +183,38 @@
 		</div><!-- container -->
 	</div><!-- download -->
 
-	<!-------------------------------
-		Footer
-	--------------------------------->
+	<div class="end-cap">
+		<div class="container">
+			<div class="end-cap-image">
+				<img src="assets/images/town.jpg">
+			</div>
+		</div>
+	</div>
+
 	<footer>
 		<div class="container">
-			<div class="footer-left">
-				<ul>
-					<li><a href="pricing.html">Pricing</a></li>
-					<li><a href="team.html">Team</a></li>
-					<li><a href="community.html">Community</a></li>
-					<li><a href="https://www.needsgap.com/login">Login</a></li>
-				</ul>
-			</div>
-			<div class="footer-right">
-				<a class="instagram" target="blank" href="https://www.instagram.com/communityher0/"></a>
-				<a class="twitter" target="blank" href="https://twitter.com/CommunityHer0"></a>
-			</div>
+			<div class="footer-links">
+				<div class="footer-left">
+					<ul>
+						<li><a href="#">Organizer</a></li>
+						<li><a href="#">Volunteers</a></li>
+						<li><a href="community.html">Community</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<a target="blank" href="https://www.instagram.com/communityher0/">Instagram</a>
+					<a target="blank" href="https://twitter.com/CommunityHer0">Twitter</a>
+				</div>
+			</div><!-- footer-links -->
 			<div class="sub-footer">
 				<p>Copyright © 2017. CommunityHero.</p>
 			</div>
 		</div><!-- container -->
 
-		<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3218003.js"></script>
-
+		<script src="assets/scripts/jquery.magnific-popup.js"></script>
+		<!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3218003.js"></script> -->
 	</footer>
 
 </div><!-- wrapper -->
