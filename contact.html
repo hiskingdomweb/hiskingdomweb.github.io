@@ -81,10 +81,10 @@
 
 	<div class="contact-c">
 		<div class="container">
-			<form action="email.php">
+			<form action="email.php" method="POST">
 				<div class="contact-l">
 					<div class="form-group">
-						<select id="input-subject" class="form-control" name="type">
+						<select id="input-subject" class="form-control" name="Category">
 						  <option value="" disabled selected>Select Subject Matter</option>
 						  <option value="Option1">Option1</option>
 						  <option value="Option2">Option2</option>
@@ -92,15 +92,15 @@
 						</select>					
 					</div>
 					<div class="form-group">
-						<input type="text" id="input-name" class="form-control" name="name" placeholder="Name">
+						<input type="text" id="input-name" class="form-control" name="Name" placeholder="Name">
 					</div>
 					<div class="form-group">
-						<input type="email" id="input-email" class="form-control" name="email" placeholder="Email">
+						<input type="email" id="input-email" class="form-control" name="Email" placeholder="Email">
 					</div>
 				</div><!-- contact-l -->
 				<div class="contact-r">
 					<div class="form-group">
-						<textarea type="text" id="input-message" class="form-control" name="message"  placeholder="Message"></textarea>
+						<textarea type="text" id="input-message" class="form-control" name="Message"  placeholder="Message"></textarea>
 					</div>
 					<input type="submit" value="Send" class="form-btn">
 				</div><!-- contact-r -->

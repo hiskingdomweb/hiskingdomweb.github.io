@@ -1,16 +1,43 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$call = $_POST['call'];
-$website = $_POST['website'];
-$priority = $_POST['priority'];
-$type = $_POST['type'];
-$message = $_POST['message'];
-$formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Website: $website \n Priority: $priority \n Type: $type \n Message: $message";
-$recipient = "YOUREMAIL@HERE.COM";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!" . " -" . "<a href='form.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
+
+$EmailFrom = "chriscoyier@gmail.com";
+$EmailTo = "tmorin41@gmail.com";
+$Subject = "Nice & Simple Contact Form by CSS-Tricks";
+$Cat = Trim(stripslashes($_POST['Category'])); 
+$Name = Trim(stripslashes($_POST['Name'])); 
+$Email = Trim(stripslashes($_POST['Email'])); 
+$Message = Trim(stripslashes($_POST['Message'])); 
+
+// validation
+$validationOK=true;
+if (!$validationOK) {
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+  exit;
+}
+
+// prepare email body text
+$Body = "";
+$Body .= "Category: ";
+$Body .= $Cat;
+$Body .= "\n";
+$Body .= "Name: ";
+$Body .= $Name;
+$Body .= "\n";
+$Body .= "Email: ";
+$Body .= $Email;
+$Body .= "\n";
+$Body .= "Message: ";
+$Body .= $Message;
+$Body .= "\n";
+
+// send email 
+$success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
+
+// redirect to success page 
+if ($success){
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
+}
+else{
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+}
 ?>
