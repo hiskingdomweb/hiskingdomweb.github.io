@@ -29,18 +29,6 @@ $("#overmenu").on("click", "a", function(event){
         }
 });
 
-
-// var offset = $('.video-btn').offset().top;
-// var navbar = $('.header');
-//
-// $(document).scroll(function() {
-// 	position = $(this).scrollTop();
-//   if (position < offset)
-//   	navbar.css({'background-color': 'rgba(255, 255, 255, 0)', 'box-shadow': '0px 0px 0px 0px rgba(255, 255, 255, 0)'});
-//   else
-//     navbar.css({'background-color': '#fff', 'box-shadow': '0px 2px 10px 0px rgba(88, 82, 71, 0.25)'});
-// });
-
 var offset = $('.nav-open').offset().top;
 var navbar = $('.header');
 
@@ -53,20 +41,6 @@ $(document).scroll(function() {
 });
 
 
-/*------------------------------------------
-	 Big Banner
--------------------------------------------*/
-$(document).ready(function() {
-  function setHeight() {
-    windowHeight = $(window).innerHeight();
-    $('.banner-c').css('height', windowHeight);
-  };
-  setHeight();
-
-  $(window).resize(function() {
-    setHeight();
-  });
-});
 
 
 });
