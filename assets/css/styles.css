@@ -882,18 +882,18 @@ form {
     height: 50px;
     width: 100%;
     border: none;
-    background: #EF6E05;
+    background: #EF6E05 !important;
     font-size: 15px;
     font-weight: 500;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 4px !important;
     transition: all .3s ease-in-out !important;
     -moz-transition: all .3s ease-in-out !important;
     -webkit-transition: all .3s ease-in-out !important;
     -o-transition: all .3s ease-in-out !important;
 }
 input.form-btn:hover {
-    background: #f28b37;
+    background: #f28b37 !important;
 }
 
 /*Internal Team*/
