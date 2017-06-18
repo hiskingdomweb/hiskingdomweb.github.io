@@ -993,7 +993,8 @@ input.form-btn:hover {
 .testimonials p {
 	font-size: 18px;
 	line-height: 36px;
-	margin-bottom: 25px;
+	max-width: 750px;
+    margin: 0 auto 25px;
 }
 .testimonials .name {
 	display: block;
