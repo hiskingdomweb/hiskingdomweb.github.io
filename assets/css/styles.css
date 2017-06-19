@@ -1017,6 +1017,9 @@ input.form-btn:hover {
 }
 
 /*Internal Pricing*/
+.internal-banner-c.pricing {
+	background-image: url("assets/../../images/pricing-banner.jpg");
+}
 .pricing-c {
 	background: #F6F9FA;
 	width: 100%;
