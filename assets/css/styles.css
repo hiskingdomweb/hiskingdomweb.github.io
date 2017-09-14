@@ -890,11 +890,18 @@ footer li a:hover {
 	text-align: center;
 }
 .intro-h {
-	margin-bottom: 35px;
+	max-width: 500px;
+    margin: 0 auto 35px;
+    line-height: 45px;
 }
 .intro-c p {
 	max-width: 800px;
 	margin: 0 auto;
+}
+.intro-c .basic-button {
+    margin: 50px auto 0;
+    display: inline-block;
+    float: none;
 }
 
 /*Internal Contact*/
@@ -1182,6 +1189,7 @@ input.form-btn:hover {
 .product-icon {
 	display: inline-block;
 	padding: 10px 0;
+	width: 100%;
 }
 .product-icon:last-child {
 	display: inline-block;
@@ -2254,41 +2262,6 @@ h1 {
 .contact-l .form-group:last-child {
 	margin-bottom: 30px;
 }
-/*Organizer*/
-.feature-l.image {
-	width: 100%;
-}
-.feature-r {
-    width: 100%;
-    padding-left: 0;
-    margin-top: 50px;
-}
-.feature-l {
-	width: 100%;
-	padding-right: 0;
-}
-.feature-r.image {
-	width: 100%;
-	margin-top: 50px;
-}
-/*Volunteer-App*/
-.spotlight-l.image {
-	width: 100%;
-}
-.spotlight-r {
-    width: 100%;
-    padding-left: 0;
-    margin-top: 50px;
-}
-.spotlight-l {
-	width: 100%;
-	padding-right: 0;
-}
-.spotlight-r.image {
-	width: 100%;
-	margin-top: 50px;
-}
-
 
 /*Footer*/
 footer {
@@ -2442,6 +2415,45 @@ footer li a {
 }
 .app-image img {
 	width: 350px;
+}
+
+/*Organizer*/
+.intro-h {
+    line-height: 30px;
+}
+.feature-l.image {
+	width: 100%;
+}
+.feature-r {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 50px;
+}
+.feature-l {
+	width: 100%;
+	padding-right: 0;
+}
+.feature-r.image {
+	width: 100%;
+	margin-top: 50px;
+}
+
+/*Volunteer-App*/
+.spotlight-l.image {
+	width: 100%;
+}
+.spotlight-r {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 50px;
+}
+.spotlight-l {
+	width: 100%;
+	padding-right: 0;
+}
+.spotlight-r.image {
+	width: 100%;
+	margin-top: 50px;
 }
 
 }
