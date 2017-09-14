@@ -895,7 +895,7 @@ footer li a:hover {
     line-height: 45px;
 }
 .intro-c p {
-	max-width: 800px;
+	max-width: 650px;
 	margin: 0 auto;
 }
 .intro-c .basic-button {
@@ -2810,13 +2810,17 @@ a.basic-button.outline.popup-vimeo {
 ********************************/
 /*Community*/
 .testimonial-video iframe {
-  width: 280px;
-  height: 157px;
+	width: 280px;
+	height: 157px;
 }
 
-
+.footer-left {
+	margin-bottom: 25px;
+}
 footer li {
-  margin: 0 7px;
+	margin: 0 7px;
+	line-height: 32px;
 }
+
 
 }
